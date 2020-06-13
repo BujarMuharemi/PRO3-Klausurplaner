@@ -1,0 +1,3 @@
+/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir

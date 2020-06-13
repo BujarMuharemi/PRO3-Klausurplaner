@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o  -o PRO3_Klausurplanner 
