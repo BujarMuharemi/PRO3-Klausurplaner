@@ -70,17 +70,122 @@ CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/CLionProjects/PRO3-Klausurplanner/main.cpp -o CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.s
 
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o: CMakeFiles/PRO3_Klausurplanner.dir/flags.make
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o: ../DataTypes/Raum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/CLionProjects/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o -c /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Raum.cpp
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Raum.cpp > CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.i
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Raum.cpp -o CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.s
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.o: CMakeFiles/PRO3_Klausurplanner.dir/flags.make
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.o: ../DataTypes/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/CLionProjects/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.o -c /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Student.cpp
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Student.cpp > CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.i
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Student.cpp -o CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.s
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o: CMakeFiles/PRO3_Klausurplanner.dir/flags.make
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o: ../DataTypes/pTage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/CLionProjects/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o -c /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/pTage.cpp
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/pTage.cpp > CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.i
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/pTage.cpp -o CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.s
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.o: CMakeFiles/PRO3_Klausurplanner.dir/flags.make
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.o: ../DataTypes/Klausur.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/CLionProjects/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.o -c /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Klausur.cpp
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Klausur.cpp > CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.i
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Klausur.cpp -o CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.s
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o: CMakeFiles/PRO3_Klausurplanner.dir/flags.make
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o: ../DataTypes/Pruefer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/CLionProjects/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o -c /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Pruefer.cpp
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Pruefer.cpp > CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.i
+
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Pruefer.cpp -o CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.s
+
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o: CMakeFiles/PRO3_Klausurplanner.dir/flags.make
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o: ../Readers/PruefungenReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/CLionProjects/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o -c /home/cc/CLionProjects/PRO3-Klausurplanner/Readers/PruefungenReader.cpp
+
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/CLionProjects/PRO3-Klausurplanner/Readers/PruefungenReader.cpp > CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.i
+
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/CLionProjects/PRO3-Klausurplanner/Readers/PruefungenReader.cpp -o CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.s
+
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o: CMakeFiles/PRO3_Klausurplanner.dir/flags.make
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o: ../Readers/AnmeldungenReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/CLionProjects/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o -c /home/cc/CLionProjects/PRO3-Klausurplanner/Readers/AnmeldungenReader.cpp
+
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/CLionProjects/PRO3-Klausurplanner/Readers/AnmeldungenReader.cpp > CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.i
+
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/CLionProjects/PRO3-Klausurplanner/Readers/AnmeldungenReader.cpp -o CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.s
+
 # Object files for target PRO3_Klausurplanner
 PRO3_Klausurplanner_OBJECTS = \
-"CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o"
+"CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o" \
+"CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o" \
+"CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.o" \
+"CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o" \
+"CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.o" \
+"CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o" \
+"CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o" \
+"CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o"
 
 # External object files for target PRO3_Klausurplanner
 PRO3_Klausurplanner_EXTERNAL_OBJECTS =
 
 PRO3_Klausurplanner: CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o
+PRO3_Klausurplanner: CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o
+PRO3_Klausurplanner: CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.o
+PRO3_Klausurplanner: CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o
+PRO3_Klausurplanner: CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.o
+PRO3_Klausurplanner: CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o
+PRO3_Klausurplanner: CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o
+PRO3_Klausurplanner: CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o
 PRO3_Klausurplanner: CMakeFiles/PRO3_Klausurplanner.dir/build.make
 PRO3_Klausurplanner: CMakeFiles/PRO3_Klausurplanner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cc/CLionProjects/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PRO3_Klausurplanner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cc/CLionProjects/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable PRO3_Klausurplanner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PRO3_Klausurplanner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

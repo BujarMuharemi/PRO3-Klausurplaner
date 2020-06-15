@@ -1,0 +1,14 @@
+//
+// Created by cc on 15/6/20.
+//
+
+#ifndef PRO3_KLAUSURPLANNER_ANMELDUNGENREADER_H
+#define PRO3_KLAUSURPLANNER_ANMELDUNGENREADER_H
+
+
+class AnmeldungenReader {
+
+};
+
+
+#endif //PRO3_KLAUSURPLANNER_ANMELDUNGENREADER_H

@@ -84,6 +84,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Klausur.cpp">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Klausur.h">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Pruefer.cpp">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Pruefer.h">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Raum.cpp">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Raum.h">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Student.cpp">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Student.h">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/pTage.cpp">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/pTage.h">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
 		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/InputData/Angebotene_Prüfungen_KL.csv">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
@@ -91,6 +121,21 @@
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
 		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/InputData/Raumliste.csv">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/Readers/AnmeldungenReader.cpp">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/Readers/AnmeldungenReader.h">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/Readers/PruefungenReader.cpp">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/Readers/PruefungenReader.h">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/Readers/RaumlisteReader.h">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
 		<Unit filename="/home/cc/CLionProjects/PRO3-Klausurplanner/main.cpp">

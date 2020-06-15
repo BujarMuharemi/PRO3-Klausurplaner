@@ -123,6 +123,195 @@ PRO3_Klausurplanner/fast:
 	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/build
 .PHONY : PRO3_Klausurplanner/fast
 
+DataTypes/Klausur.o: DataTypes/Klausur.cpp.o
+
+.PHONY : DataTypes/Klausur.o
+
+# target to build an object file
+DataTypes/Klausur.cpp.o:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.o
+.PHONY : DataTypes/Klausur.cpp.o
+
+DataTypes/Klausur.i: DataTypes/Klausur.cpp.i
+
+.PHONY : DataTypes/Klausur.i
+
+# target to preprocess a source file
+DataTypes/Klausur.cpp.i:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.i
+.PHONY : DataTypes/Klausur.cpp.i
+
+DataTypes/Klausur.s: DataTypes/Klausur.cpp.s
+
+.PHONY : DataTypes/Klausur.s
+
+# target to generate assembly for a file
+DataTypes/Klausur.cpp.s:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.s
+.PHONY : DataTypes/Klausur.cpp.s
+
+DataTypes/Pruefer.o: DataTypes/Pruefer.cpp.o
+
+.PHONY : DataTypes/Pruefer.o
+
+# target to build an object file
+DataTypes/Pruefer.cpp.o:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o
+.PHONY : DataTypes/Pruefer.cpp.o
+
+DataTypes/Pruefer.i: DataTypes/Pruefer.cpp.i
+
+.PHONY : DataTypes/Pruefer.i
+
+# target to preprocess a source file
+DataTypes/Pruefer.cpp.i:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.i
+.PHONY : DataTypes/Pruefer.cpp.i
+
+DataTypes/Pruefer.s: DataTypes/Pruefer.cpp.s
+
+.PHONY : DataTypes/Pruefer.s
+
+# target to generate assembly for a file
+DataTypes/Pruefer.cpp.s:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.s
+.PHONY : DataTypes/Pruefer.cpp.s
+
+DataTypes/Raum.o: DataTypes/Raum.cpp.o
+
+.PHONY : DataTypes/Raum.o
+
+# target to build an object file
+DataTypes/Raum.cpp.o:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o
+.PHONY : DataTypes/Raum.cpp.o
+
+DataTypes/Raum.i: DataTypes/Raum.cpp.i
+
+.PHONY : DataTypes/Raum.i
+
+# target to preprocess a source file
+DataTypes/Raum.cpp.i:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.i
+.PHONY : DataTypes/Raum.cpp.i
+
+DataTypes/Raum.s: DataTypes/Raum.cpp.s
+
+.PHONY : DataTypes/Raum.s
+
+# target to generate assembly for a file
+DataTypes/Raum.cpp.s:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.s
+.PHONY : DataTypes/Raum.cpp.s
+
+DataTypes/Student.o: DataTypes/Student.cpp.o
+
+.PHONY : DataTypes/Student.o
+
+# target to build an object file
+DataTypes/Student.cpp.o:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.o
+.PHONY : DataTypes/Student.cpp.o
+
+DataTypes/Student.i: DataTypes/Student.cpp.i
+
+.PHONY : DataTypes/Student.i
+
+# target to preprocess a source file
+DataTypes/Student.cpp.i:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.i
+.PHONY : DataTypes/Student.cpp.i
+
+DataTypes/Student.s: DataTypes/Student.cpp.s
+
+.PHONY : DataTypes/Student.s
+
+# target to generate assembly for a file
+DataTypes/Student.cpp.s:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.s
+.PHONY : DataTypes/Student.cpp.s
+
+DataTypes/pTage.o: DataTypes/pTage.cpp.o
+
+.PHONY : DataTypes/pTage.o
+
+# target to build an object file
+DataTypes/pTage.cpp.o:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o
+.PHONY : DataTypes/pTage.cpp.o
+
+DataTypes/pTage.i: DataTypes/pTage.cpp.i
+
+.PHONY : DataTypes/pTage.i
+
+# target to preprocess a source file
+DataTypes/pTage.cpp.i:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.i
+.PHONY : DataTypes/pTage.cpp.i
+
+DataTypes/pTage.s: DataTypes/pTage.cpp.s
+
+.PHONY : DataTypes/pTage.s
+
+# target to generate assembly for a file
+DataTypes/pTage.cpp.s:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.s
+.PHONY : DataTypes/pTage.cpp.s
+
+Readers/AnmeldungenReader.o: Readers/AnmeldungenReader.cpp.o
+
+.PHONY : Readers/AnmeldungenReader.o
+
+# target to build an object file
+Readers/AnmeldungenReader.cpp.o:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o
+.PHONY : Readers/AnmeldungenReader.cpp.o
+
+Readers/AnmeldungenReader.i: Readers/AnmeldungenReader.cpp.i
+
+.PHONY : Readers/AnmeldungenReader.i
+
+# target to preprocess a source file
+Readers/AnmeldungenReader.cpp.i:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.i
+.PHONY : Readers/AnmeldungenReader.cpp.i
+
+Readers/AnmeldungenReader.s: Readers/AnmeldungenReader.cpp.s
+
+.PHONY : Readers/AnmeldungenReader.s
+
+# target to generate assembly for a file
+Readers/AnmeldungenReader.cpp.s:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.s
+.PHONY : Readers/AnmeldungenReader.cpp.s
+
+Readers/PruefungenReader.o: Readers/PruefungenReader.cpp.o
+
+.PHONY : Readers/PruefungenReader.o
+
+# target to build an object file
+Readers/PruefungenReader.cpp.o:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o
+.PHONY : Readers/PruefungenReader.cpp.o
+
+Readers/PruefungenReader.i: Readers/PruefungenReader.cpp.i
+
+.PHONY : Readers/PruefungenReader.i
+
+# target to preprocess a source file
+Readers/PruefungenReader.cpp.i:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.i
+.PHONY : Readers/PruefungenReader.cpp.i
+
+Readers/PruefungenReader.s: Readers/PruefungenReader.cpp.s
+
+.PHONY : Readers/PruefungenReader.s
+
+# target to generate assembly for a file
+Readers/PruefungenReader.cpp.s:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.s
+.PHONY : Readers/PruefungenReader.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +348,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PRO3_Klausurplanner"
+	@echo "... DataTypes/Klausur.o"
+	@echo "... DataTypes/Klausur.i"
+	@echo "... DataTypes/Klausur.s"
+	@echo "... DataTypes/Pruefer.o"
+	@echo "... DataTypes/Pruefer.i"
+	@echo "... DataTypes/Pruefer.s"
+	@echo "... DataTypes/Raum.o"
+	@echo "... DataTypes/Raum.i"
+	@echo "... DataTypes/Raum.s"
+	@echo "... DataTypes/Student.o"
+	@echo "... DataTypes/Student.i"
+	@echo "... DataTypes/Student.s"
+	@echo "... DataTypes/pTage.o"
+	@echo "... DataTypes/pTage.i"
+	@echo "... DataTypes/pTage.s"
+	@echo "... Readers/AnmeldungenReader.o"
+	@echo "... Readers/AnmeldungenReader.i"
+	@echo "... Readers/AnmeldungenReader.s"
+	@echo "... Readers/PruefungenReader.o"
+	@echo "... Readers/PruefungenReader.i"
+	@echo "... Readers/PruefungenReader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
