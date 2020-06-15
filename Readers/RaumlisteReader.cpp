@@ -13,7 +13,7 @@ int main(){
     string temp [1000];
     ifstream csvread;
 
-    csvread.open("/home/dejan/PRO3-Klausurplanner/Raumliste.csv", ios::in);
+    csvread.open("../InputData/Raumliste.csv", ios::in);
 
     if(csvread) {
         string s = "";

@@ -1,4 +1,4 @@
-# Install script for directory: /home/dejan/PRO3-Klausurplanner
+# Install script for directory: /home/cc/CLionProjects/PRO3-Klausurplanner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dejan/PRO3-Klausurplanner/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cc/CLionProjects/PRO3-Klausurplanner/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
