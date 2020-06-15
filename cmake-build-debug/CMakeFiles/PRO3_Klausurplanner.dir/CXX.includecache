@@ -6,3 +6,37 @@
 
 #IncludeRegexTransform: 
 
+/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Klausur.h
+string
+-
+Pruefer.h
+/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Pruefer.h
+
+/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Pruefer.h
+string
+-
+
+/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Raum.h
+string
+-
+
+/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Student.h
+string
+-
+
+/home/cc/CLionProjects/PRO3-Klausurplanner/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+DataTypes/Raum.h
+/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Raum.h
+DataTypes/Student.h
+/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Student.h
+DataTypes/Pruefer.h
+/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Pruefer.h
+DataTypes/Klausur.h
+/home/cc/CLionProjects/PRO3-Klausurplanner/DataTypes/Klausur.h
+
