@@ -21,7 +21,6 @@ void RaumlisteReader::read(string nummer[], int plaetzeint[]) {
         string s = "";
         while (getline(csvread, s, ',')) {
 
-
             temp[counter1] = s;
             counter1++;
 
@@ -29,7 +28,6 @@ void RaumlisteReader::read(string nummer[], int plaetzeint[]) {
                 nummer[counter2] = s;
                 counter2++;
             }
-
         }
         csvread.close();
     }
@@ -46,6 +44,9 @@ void RaumlisteReader::read(string nummer[], int plaetzeint[]) {
         }
         if(temp[i].size() == 5){
             temp[i] = temp[i].substr(1, 3);
+        }
+        if(temp[i].size() == 6){
+            temp[i] = temp[i].substr(1, 4);
         }
 
     }
