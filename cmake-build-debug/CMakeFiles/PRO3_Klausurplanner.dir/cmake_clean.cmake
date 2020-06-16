@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o"
   "CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o"
   "CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o"
+  "CMakeFiles/PRO3_Klausurplanner.dir/Readers/RaumlisteReader.cpp.o"
   "CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o"
   "PRO3_Klausurplanner"
   "PRO3_Klausurplanner.pdb"

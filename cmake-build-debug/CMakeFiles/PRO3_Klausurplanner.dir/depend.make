@@ -23,9 +23,13 @@ CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o: ../Readers/A
 CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o: ../Readers/PruefungenReader.cpp
 CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o: ../Readers/PruefungenReader.h
 
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/RaumlisteReader.cpp.o: ../Readers/RaumlisteReader.cpp
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/RaumlisteReader.cpp.o: ../Readers/RaumlisteReader.h
+
 CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../DataTypes/Klausur.h
 CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../DataTypes/Pruefer.h
 CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../DataTypes/Raum.h
 CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../DataTypes/Student.h
+CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../Readers/RaumlisteReader.h
 CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../main.cpp
 
