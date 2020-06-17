@@ -31,5 +31,6 @@ CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o
  /home/dejan/PRO3-Klausurplanner/DataTypes/Pruefer.h
  /home/dejan/PRO3-Klausurplanner/DataTypes/Raum.h
  /home/dejan/PRO3-Klausurplanner/DataTypes/Student.h
+ /home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.h
  /home/dejan/PRO3-Klausurplanner/Readers/RaumlisteReader.h
  /home/dejan/PRO3-Klausurplanner/main.cpp
