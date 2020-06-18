@@ -1,12 +1,10 @@
-//
-// Created by cc on 15/6/20.
-//
-
 #ifndef PRO3_KLAUSURPLANNER_ANMELDUNGENREADER_H
 #define PRO3_KLAUSURPLANNER_ANMELDUNGENREADER_H
 
 
 class AnmeldungenReader {
+public:
+    static void read(int *mtknr, std::string *studiengang, int *pID_A);
 
 };
 

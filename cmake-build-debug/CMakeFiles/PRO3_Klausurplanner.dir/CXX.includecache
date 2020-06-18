@@ -24,6 +24,8 @@ string
 string
 -
 
+/home/dejan/PRO3-Klausurplanner/Readers/AnmeldungenReader.h
+
 /home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.h
 
 /home/dejan/PRO3-Klausurplanner/Readers/RaumlisteReader.h
@@ -47,4 +49,6 @@ Readers/RaumlisteReader.h
 /home/dejan/PRO3-Klausurplanner/Readers/RaumlisteReader.h
 Readers/PruefungenReader.h
 /home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.h
+Readers/AnmeldungenReader.h
+/home/dejan/PRO3-Klausurplanner/Readers/AnmeldungenReader.h
 
