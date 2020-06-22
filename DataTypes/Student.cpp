@@ -35,3 +35,9 @@ const std::string &Student::getPFormTxt() const {
 int Student::getPSemester() const {
     return pSemester;
 }
+
+void Student::resetReady(){
+    for(int i=0;i<20;i++){
+        isReady[i]= true;
+    }
+}

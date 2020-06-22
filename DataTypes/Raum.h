@@ -13,6 +13,7 @@ class Raum {
     int Sitzplaetze;
 
 public:
+    Raum();
     Raum(std::string Name,int Sitzplaetze);
     std::string getName();
     int getSitzplaetze();

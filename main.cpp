@@ -9,6 +9,7 @@
 #include "Readers/PruefungenReader.h"
 #include "Readers/AnmeldungenReader.h"
 
+#include <vector>
 
 using namespace std;
 
@@ -21,13 +22,22 @@ int main(){
 //-------------------------------------------------------------------RaumlisteReader
     string nummer [1000];
     int plaetze [1000];
+    Raum raume [1000];
+    vector<Raum> raume2;
 
     RaumlisteReader::read(nummer, plaetze);
 
     cout << "<Raumliste------------------------------------------------------------------>" << endl;
 
     for(int i = 0; i < 54; i++){
-        cout << "Raum: " << nummer[i] << "; Sitzplätze: " << plaetze[i] << endl;
+        //cout << "Raum: " << nummer[i] << "; Sitzplätze: " << plaetze[i] << endl;
+        raume2.emplace_back( Raum(nummer[i],plaetze[i]) );
+        //raume[i]=Raum(nummer[i],plaetze[i]);
+    }
+
+    for(int i =0;i<raume2.size();i++){
+        //cout << raume[i].getName() << "--" << raume[i].getSitzplaetze() << endl;
+        cout << raume2[i].getName() << "--" << raume2[i].getSitzplaetze() << endl;
     }
 //--------------------------------------------------------------------PrüfungenReader
     int pID[1000];
@@ -41,7 +51,7 @@ int main(){
     PruefungenReader::read(pID, modul, pruefer1, pruefer2, dauer);
 
     for(int i = 0; i < 544; i++){
-        cout<< "pID: " << pID[i]  << "; modul: " << modul[i] << "; pruefer1: " << pruefer1[i] << "; pruefer2: " << pruefer2[i] << "; dauer: " << dauer[i] << endl;
+        //cout<< "pID: " << pID[i]  << "; modul: " << modul[i] << "; pruefer1: " << pruefer1[i] << "; pruefer2: " << pruefer2[i] << "; dauer: " << dauer[i] << endl;
     }
 //--------------------------------------------------------------------AnmeldungenReader
     int mtknr[10000];
@@ -53,7 +63,7 @@ int main(){
     cout << "<Anmeldungen------------------------------------------------------------------>" << endl;
 
     for(int i=0; i<9621; i++){
-        cout << "pID-A: " << pID_A[i] << "; studiengang: " << studiengang[i] <<"; mtknr: " << mtknr[i] <<endl;
+        //cout << "pID-A: " << pID_A[i] << "; studiengang: " << studiengang[i] <<"; mtknr: " << mtknr[i] <<endl;
     }
 //--------------------------------------------------------------------Reader haben fertig
 

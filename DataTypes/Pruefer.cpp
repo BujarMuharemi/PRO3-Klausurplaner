@@ -1,19 +1,19 @@
 //
 // Created by cc on 15/6/20.
 //
-
 #include "Pruefer.h"
 
-Pruefer::Pruefer(int pruefer1, int pruefer2) : pruefer1(pruefer1), pruefer2(pruefer2) {}
 
-Pruefer::Pruefer(int pruefer1) : pruefer1(pruefer1) { this->pruefer2=NULL;}
+Pruefer::Pruefer(int pruefer) : pruefer(pruefer) {}
 
-int Pruefer::getPruefer1() const {
-    return pruefer1;
+int Pruefer::getPruefer() const {
+    return pruefer;
 }
 
-int Pruefer::getPruefer2() const {
-    return pruefer2;
+void Pruefer::resetReady(){
+    for(int i=0;i<20;i++){
+        isReady[i]= true;
+    }
 }
 
 

@@ -16,8 +16,8 @@ class Klausur {
     std::string pName;
     Pruefer pruefer;
     int pDauer;
-    std::string pForm; //Pruefungsform
-    int pSemester; // Pruefungssemster
+    std::string pForm; //Pruefungsform DELETE
+    int pSemester; // Pruefungssemster DELETE
 
 public:
     Klausur(const std::string &stg, int pVersion, int pNr, const std::string &pName, const Pruefer &pruefer, int pDauer,

@@ -9,6 +9,8 @@ Raum::Raum(std::string Name, int Sitzplaetze) {
     this->Sitzplaetze=Sitzplaetze;
 }
 
+Raum::Raum(){}
+
 std::string Raum::getName() {
     return this->Name;
 }

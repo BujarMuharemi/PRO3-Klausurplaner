@@ -8,17 +8,15 @@
 
 
 class Pruefer {
-    int pruefer1;
-    int pruefer2;
+    int pruefer;
+    bool isReady [20]; // TODO: check default ?
 
 public:
-    Pruefer(int pruefer1, int pruefer2);
+    Pruefer(int pruefer);
 
-    Pruefer(int pruefer1);
+    int getPruefer() const;
 
-    int getPruefer1() const;
-
-    int getPruefer2() const;
+    void resetReady();
 };
 
 
