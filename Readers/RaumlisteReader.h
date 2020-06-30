@@ -6,7 +6,7 @@
 
 class RaumlisteReader {
 public:
-    static void read(std::vector<Raum> raume);
+    static void read(std::vector<Raum>& raume);
 
 };
 

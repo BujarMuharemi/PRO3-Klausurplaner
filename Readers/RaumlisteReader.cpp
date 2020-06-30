@@ -8,7 +8,7 @@
 
 using namespace std;
 
-void RaumlisteReader::read(vector<Raum> raume) {
+void RaumlisteReader::read(vector<Raum>& raume) {
 
     string nummer[1000];
     int plaetzeint[1000];
@@ -71,11 +71,7 @@ void RaumlisteReader::read(vector<Raum> raume) {
 
     }
     for(int i = 0; i < 54; i++){
-
         raume.emplace_back(Raum(nummer[i], plaetzeint[i]) );
     }
 
-    for(auto & i : raume){
-        cout << i.getName() << "--" << i.getSitzplaetze() << endl;
-    }
 }

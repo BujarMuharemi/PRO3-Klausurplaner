@@ -15,13 +15,10 @@ using namespace std;
 
 int main(){
 //-------------------------------------------------------------------RaumlisteReader
-
     vector<Raum> raume;
-
     RaumlisteReader::read(raume);
 
     cout << "<Raumliste------------------------------------------------------------------>" << endl;
-
 
     for(auto & i : raume){
         cout << i.getName() << "--" << i.getSitzplaetze() << endl;
@@ -53,16 +50,6 @@ int main(){
     for(int i=0; i<9621; i++){
         //cout << "pID-A: " << pID_A[i] << "; studiengang: " << studiengang[i] <<"; mtknr: " << mtknr[i] <<endl;
     }
-//--------------------------------------------------------------------Reader haben fertig
-
-    //Klausur k("AB",141,1030,"Technik Grundlagen",pPaar,210,"KL",20201);
-
-    /*cout << "Prüfer parr: 1:" << pPaar.getPruefer1()<< " 2:"<<pPaar.getPruefer2()<<endl;
-
-    cout << "Hello World" << a.getSitzplaetze() << endl;
-
-    cout << "ID: " << k.getID() << endl;
-    */
 
     return 0;
 }
