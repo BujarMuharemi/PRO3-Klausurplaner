@@ -3,10 +3,16 @@
 #include <ostream>
 #include <string>
 #include "RaumlisteReader.h"
+#include "../DataTypes/Raum.h"
+#include <vector>
 
 using namespace std;
 
-void RaumlisteReader::read(string nummer[], int plaetzeint[]) {
+void RaumlisteReader::read(vector<Raum> raume) {
+
+    string nummer[1000];
+    int plaetzeint[1000];
+
     int counter1 = 0;
     int counter2 = 0;
     int counter3 = 0;
@@ -63,5 +69,13 @@ void RaumlisteReader::read(string nummer[], int plaetzeint[]) {
     for(int i=0; i<1000; i++){
         plaetzeint[i] = plaetzeint[i]/4;
 
+    }
+    for(int i = 0; i < 54; i++){
+
+        raume.emplace_back(Raum(nummer[i], plaetzeint[i]) );
+    }
+
+    for(auto & i : raume){
+        cout << i.getName() << "--" << i.getSitzplaetze() << endl;
     }
 }

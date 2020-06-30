@@ -14,31 +14,19 @@
 using namespace std;
 
 int main(){
-
-    Student b(123456,"IF",234234,234234,"KL","Klausur",20192);
-    Raum a("asdf",4);
-    Pruefer pPaar(6317,452);
-    Pruefer p1(666);
 //-------------------------------------------------------------------RaumlisteReader
-    string nummer [1000];
-    int plaetze [1000];
-    Raum raume [1000];
-    vector<Raum> raume2;
 
-    RaumlisteReader::read(nummer, plaetze);
+    vector<Raum> raume;
+
+    RaumlisteReader::read(raume);
 
     cout << "<Raumliste------------------------------------------------------------------>" << endl;
 
-    for(int i = 0; i < 54; i++){
-        //cout << "Raum: " << nummer[i] << "; Sitzplätze: " << plaetze[i] << endl;
-        raume2.emplace_back( Raum(nummer[i],plaetze[i]) );
-        //raume[i]=Raum(nummer[i],plaetze[i]);
+
+    for(auto & i : raume){
+        cout << i.getName() << "--" << i.getSitzplaetze() << endl;
     }
 
-    for(int i =0;i<raume2.size();i++){
-        //cout << raume[i].getName() << "--" << raume[i].getSitzplaetze() << endl;
-        cout << raume2[i].getName() << "--" << raume2[i].getSitzplaetze() << endl;
-    }
 //--------------------------------------------------------------------PrüfungenReader
     int pID[1000];
     string modul[1000];
@@ -67,7 +55,7 @@ int main(){
     }
 //--------------------------------------------------------------------Reader haben fertig
 
-    Klausur k("AB",141,1030,"Technik Grundlagen",pPaar,210,"KL",20201);
+    //Klausur k("AB",141,1030,"Technik Grundlagen",pPaar,210,"KL",20201);
 
     /*cout << "Prüfer parr: 1:" << pPaar.getPruefer1()<< " 2:"<<pPaar.getPruefer2()<<endl;
 
