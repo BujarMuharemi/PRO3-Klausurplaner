@@ -9,6 +9,7 @@
 #define PRO3_KLAUSURPLANNER_GKLAUSUR_H
 
 
+
 class gKlausur {
     Klausur klausur;
     Raum raum;
@@ -16,16 +17,31 @@ class gKlausur {
     int startZeit;
 
 public:
+    gKlausur(const Klausur &klausur, const Raum &raum, int teilnehmerZahl, int startZeit);
+
     const Klausur &getKlausur() const;
 
     void setKlausur(const Klausur &klausur);
 
     const Raum &getRaum() const;
 
+    int getTeilnehmerZahl() const;
+
+    void setTeilnehmerZahl(int teilnehmerZahl);
+
+    int getStartZeit() const;
+
+    void setStartZeit(int startZeit);
+
+
+
     void setRaum(const Raum &raum);
 
-public:
-    gKlausur(const Klausur &klausur, const Raum &raum,const int &teilnehmerZahl,const int &startZeit);
+
+
+
+
+
 };
 
 

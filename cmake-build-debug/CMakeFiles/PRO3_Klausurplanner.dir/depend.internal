@@ -14,6 +14,13 @@ CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.cpp
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.o
+ /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
+ /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.h
+ /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
+ /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/TimeSlot.cpp
+ /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/TimeSlot.h
+ /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/gKlausur.cpp.o
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.h
@@ -24,6 +31,7 @@ CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.h
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
+ /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/TimeSlot.h
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.cpp
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.h
@@ -45,6 +53,9 @@ CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.h
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
+ /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/TimeSlot.h
+ /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h
+ /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.h
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/AnmeldungenReader.h
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/PruefungenReader.h
  /home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/RaumlisteReader.h

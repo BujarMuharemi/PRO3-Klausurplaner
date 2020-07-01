@@ -13,6 +13,8 @@ class TimeSlot {
     std::vector<gKlausur> geplanteKlausurListe;
 public:
     TimeSlot(const std::vector<gKlausur> &geplanteKlausurListe);
+
+    TimeSlot();
 };
 
 

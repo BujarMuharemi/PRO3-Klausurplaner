@@ -14,6 +14,13 @@ CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o: ../DataTypes/Pruefer
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o: ../DataTypes/Raum.cpp
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o: ../DataTypes/Raum.h
 
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.o: ../DataTypes/Klausur.h
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.o: ../DataTypes/Pruefer.h
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.o: ../DataTypes/Raum.h
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.o: ../DataTypes/TimeSlot.cpp
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.o: ../DataTypes/TimeSlot.h
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.o: ../DataTypes/gKlausur.h
+
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/gKlausur.cpp.o: ../DataTypes/Klausur.h
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/gKlausur.cpp.o: ../DataTypes/Pruefer.h
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/gKlausur.cpp.o: ../DataTypes/Raum.h
@@ -23,6 +30,7 @@ CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/gKlausur.cpp.o: ../DataTypes/gKlaus
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o: ../DataTypes/Klausur.h
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o: ../DataTypes/Pruefer.h
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o: ../DataTypes/Raum.h
+CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o: ../DataTypes/TimeSlot.h
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o: ../DataTypes/gKlausur.h
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o: ../DataTypes/pTage.cpp
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o: ../DataTypes/pTage.h
@@ -44,6 +52,9 @@ CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../DataTypes/Anmeldung.h
 CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../DataTypes/Klausur.h
 CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../DataTypes/Pruefer.h
 CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../DataTypes/Raum.h
+CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../DataTypes/TimeSlot.h
+CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../DataTypes/gKlausur.h
+CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../DataTypes/pTage.h
 CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../Readers/AnmeldungenReader.h
 CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../Readers/PruefungenReader.h
 CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o: ../Readers/RaumlisteReader.h

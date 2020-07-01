@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Anmeldung.h
+string
+-
+
 /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
 string
 -
@@ -16,23 +20,41 @@ Pruefer.h
 string
 -
 
-/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/AnmeldungenReader.cpp
+iostream
+-
+fstream
+-
+ostream
+-
 string
 -
+AnmeldungenReader.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/AnmeldungenReader.h
 
-/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h
-Klausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/AnmeldungenReader.h
+vector
+-
+../DataTypes/Anmeldung.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Anmeldung.h
+
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/PruefungenReader.cpp
+iostream
+-
+fstream
+-
+ostream
+-
+string
+-
+PruefungenReader.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/PruefungenReader.h
+set
+-
+
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/PruefungenReader.h
+../DataTypes/Klausur.h
 /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
-Raum.h
-/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
-
-/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.cpp
-pTage.h
-/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.h
-
-/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.h
-gKlausur.h
-/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h
 vector
 -
 

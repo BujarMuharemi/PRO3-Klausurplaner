@@ -5,3 +5,5 @@
 #include "TimeSlot.h"
 
 TimeSlot::TimeSlot(const std::vector<gKlausur> &geplanteKlausurListe) : geplanteKlausurListe(geplanteKlausurListe) {}
+
+TimeSlot::TimeSlot() {}

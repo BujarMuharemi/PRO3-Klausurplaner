@@ -91,13 +91,13 @@ void AnmeldungenReader::read(std::vector<Anmeldung>& studenten) {
         counter2++;
     }
     counter2 = 0;
-
+    // ID berechnen
     for(int i=0; i<10000; i++){
         pID_A[i] = atoi(pnr[i].c_str()) - atoi(pversion[i].c_str());
     }
 
     for(int i = 0; i < 9621; i++){
-        studenten.emplace_back(Anmeldung(mtknr[i], studiengang[i], pID_A[i]) );
+        studenten.emplace_back(Anmeldung(mtknr[i], studiengang[i],atoi(pnr[i].c_str()),atoi(pversion[i].c_str())));
     }
 
 }

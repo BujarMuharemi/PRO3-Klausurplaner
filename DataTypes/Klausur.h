@@ -8,6 +8,7 @@
 #define PRO3_KLAUSURPLANNER_KLAUSUR_H
 
 
+
 class Klausur {
     int pVersion;
     int pNR;
@@ -18,7 +19,8 @@ class Klausur {
     int pDauer;
 
 public:
-    Klausur(int pVersion, int pNr, int ID, std::string pName, int pruefer1, int pruefer2, int pDauer);
+    Klausur(int pVersion, int pNr, int id, const std::string &pName, int pruefer1, int pruefer2, int pDauer);
+
     int getID();
     int getpVersion();
     int getpNR();
@@ -26,6 +28,8 @@ public:
     int getpruefer1();
     int getpruefer2();
     int getpDauer();
+
+
 };
 
 

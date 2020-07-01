@@ -11,6 +11,8 @@
 
 class pTage {
     TimeSlot timeSlots[20];
+public:
+    pTage();
 };
 
 

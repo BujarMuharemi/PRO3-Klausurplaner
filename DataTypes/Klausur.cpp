@@ -4,16 +4,7 @@
 
 #include "Klausur.h"
 
-Klausur::Klausur(int pVersion, int pNr, int ID, std::string pName, int pruefer1, int pruefer2, int pDauer) {
 
-    this->pVersion=pVersion;
-    this->pNR=pNr;
-    this->ID=ID;
-    this->pName=pName;
-    this->pruefer1=pruefer1;
-    this->pruefer2=pruefer2;
-    this->pDauer=pDauer;
-}
 
 int Klausur::getID() {
     return this->ID;
@@ -42,5 +33,10 @@ int Klausur::getpruefer2() {
 int Klausur::getpDauer() {
     return this->pDauer;
 }
+
+Klausur::Klausur(int pVersion, int pNr, int id, const std::string &pName, int pruefer1, int pruefer2, int pDauer)
+        : pVersion(pVersion), pNR(pNr), ID(id), pName(pName), pruefer1(pruefer1), pruefer2(pruefer2), pDauer(pDauer) {}
+
+
 
 

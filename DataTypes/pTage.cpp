@@ -3,3 +3,5 @@
 //
 
 #include "pTage.h"
+
+pTage::pTage() {}

@@ -10,18 +10,32 @@
 class Anmeldung {
     int mtkNR; //Matrikelnummer
     std::string stg; //Studiengang
-    int ID; //prufungsID
+    //int ID; //prufungsID
+    int pNR;
+    int pVersion;
+public:
+    Anmeldung(int mtkNr, const std::string &stg, int pNr, int pVersion);
+
+private:
 
     bool isReady [20];
 
 public:
-    Anmeldung(int mtkNr, std::string stg, int ID);
+    //Anmeldung(int mtkNr, std::string stg, int ID);
+
+
 
     int getMtkNr() const;
 
     const std::string &getStg() const;
 
-    int getID() const;
+
+    int getpVersion();
+
+
+    int getPnr() const;
+
+    int getPVersion() const;
 
     void resetReady();
 
