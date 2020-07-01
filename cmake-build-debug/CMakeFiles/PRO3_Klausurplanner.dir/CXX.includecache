@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/dejan/PRO3-Klausurplanner/DataTypes/Klausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
 string
 -
 Pruefer.h
-/home/dejan/PRO3-Klausurplanner/DataTypes/Pruefer.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.h
 
-/home/dejan/PRO3-Klausurplanner/DataTypes/Pruefer.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.h
 string
 -
 
-/home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.cpp
-iostream
--
-fstream
--
-ostream
--
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
 string
 -
-PruefungenReader.h
-/home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.h
-set
--
 
-/home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.h
-../DataTypes/Klausur.h
-/home/dejan/PRO3-Klausurplanner/DataTypes/Klausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h
+Klausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
+Raum.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
+
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.cpp
+pTage.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.h
+
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.h
+gKlausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h
 vector
 -
 

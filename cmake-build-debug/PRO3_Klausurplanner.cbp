@@ -8,143 +8,157 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/dejan/PRO3-Klausurplanner/cmake-build-debug"/>
+				<Option working_dir="/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/dejan/PRO3-Klausurplanner/cmake-build-debug"/>
+				<Option working_dir="/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/dejan/PRO3-Klausurplanner/cmake-build-debug"/>
+				<Option working_dir="/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PRO3_Klausurplanner">
-				<Option output="/home/dejan/PRO3-Klausurplanner/cmake-build-debug/PRO3_Klausurplanner" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dejan/PRO3-Klausurplanner/cmake-build-debug"/>
+				<Option output="/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/PRO3_Klausurplanner" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
-					<Add directory="/usr/include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/backward"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/include"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include-fixed"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 PRO3_Klausurplanner"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 PRO3_Klausurplanner"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PRO3_Klausurplanner/fast">
-				<Option output="/home/dejan/PRO3-Klausurplanner/cmake-build-debug/PRO3_Klausurplanner" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/dejan/PRO3-Klausurplanner/cmake-build-debug"/>
+				<Option output="/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/PRO3_Klausurplanner" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
-					<Add directory="/usr/include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/../../../../include/c++/5.5.0/backward"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/include"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/Cellar/gcc/5.5.0_7/lib/gcc/x86_64-unknown-linux-gnu/5.5.0/include-fixed"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 PRO3_Klausurplanner/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/dejan/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 PRO3_Klausurplanner/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/DataTypes/Klausur.cpp">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Anmeldung.cpp">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/DataTypes/Klausur.h">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Anmeldung.h">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/DataTypes/Pruefer.cpp">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.cpp">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/DataTypes/Pruefer.h">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/DataTypes/Raum.cpp">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.cpp">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/DataTypes/Raum.h">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.h">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/DataTypes/Student.cpp">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.cpp">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/DataTypes/Student.h">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/DataTypes/pTage.cpp">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/TimeSlot.cpp">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/DataTypes/pTage.h">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/TimeSlot.h">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/InputData/Angebotene_Prüfungen_KL.csv">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.cpp">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/InputData/Anmeldungen_WS2019_KL.csv">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/InputData/Raumliste.csv">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.cpp">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/Readers/AnmeldungenReader.cpp">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.h">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/Readers/AnmeldungenReader.h">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/InputData/Angebotene_Prüfungen_KL.csv">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.cpp">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/InputData/Anmeldungen_WS2019_KL.csv">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.h">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/InputData/Raumliste.csv">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/Readers/RaumlisteReader.cpp">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/AnmeldungenReader.cpp">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/Readers/RaumlisteReader.h">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/AnmeldungenReader.h">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/main.cpp">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/PruefungenReader.cpp">
 			<Option target="PRO3_Klausurplanner"/>
 		</Unit>
-		<Unit filename="/home/dejan/PRO3-Klausurplanner/CMakeLists.txt">
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/PruefungenReader.h">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/RaumlisteReader.cpp">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/RaumlisteReader.h">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/main.cpp">
+			<Option target="PRO3_Klausurplanner"/>
+		</Unit>
+		<Unit filename="/home/cc/Documents/PRO3/PRO3-Klausurplanner/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

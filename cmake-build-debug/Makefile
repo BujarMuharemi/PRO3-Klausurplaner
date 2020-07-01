@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/dejan/Downloads/clion-2020.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/dejan/Downloads/clion-2020.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dejan/PRO3-Klausurplanner
+CMAKE_SOURCE_DIR = /home/cc/Documents/PRO3/PRO3-Klausurplanner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dejan/PRO3-Klausurplanner/cmake-build-debug
+CMAKE_BINARY_DIR = /home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/dejan/PRO3-Klausurplanner/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/dejan/Downloads/clion-2020.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/114/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/dejan/Downloads/clion-2020.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/114/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles /home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles /home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ PRO3_Klausurplanner: cmake_check_build_system
 PRO3_Klausurplanner/fast:
 	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/build
 .PHONY : PRO3_Klausurplanner/fast
+
+DataTypes/Anmeldung.o: DataTypes/Anmeldung.cpp.o
+
+.PHONY : DataTypes/Anmeldung.o
+
+# target to build an object file
+DataTypes/Anmeldung.cpp.o:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Anmeldung.cpp.o
+.PHONY : DataTypes/Anmeldung.cpp.o
+
+DataTypes/Anmeldung.i: DataTypes/Anmeldung.cpp.i
+
+.PHONY : DataTypes/Anmeldung.i
+
+# target to preprocess a source file
+DataTypes/Anmeldung.cpp.i:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Anmeldung.cpp.i
+.PHONY : DataTypes/Anmeldung.cpp.i
+
+DataTypes/Anmeldung.s: DataTypes/Anmeldung.cpp.s
+
+.PHONY : DataTypes/Anmeldung.s
+
+# target to generate assembly for a file
+DataTypes/Anmeldung.cpp.s:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Anmeldung.cpp.s
+.PHONY : DataTypes/Anmeldung.cpp.s
 
 DataTypes/Klausur.o: DataTypes/Klausur.cpp.o
 
@@ -204,32 +231,59 @@ DataTypes/Raum.cpp.s:
 	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.s
 .PHONY : DataTypes/Raum.cpp.s
 
-DataTypes/Student.o: DataTypes/Student.cpp.o
+DataTypes/TimeSlot.o: DataTypes/TimeSlot.cpp.o
 
-.PHONY : DataTypes/Student.o
+.PHONY : DataTypes/TimeSlot.o
 
 # target to build an object file
-DataTypes/Student.cpp.o:
-	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.o
-.PHONY : DataTypes/Student.cpp.o
+DataTypes/TimeSlot.cpp.o:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.o
+.PHONY : DataTypes/TimeSlot.cpp.o
 
-DataTypes/Student.i: DataTypes/Student.cpp.i
+DataTypes/TimeSlot.i: DataTypes/TimeSlot.cpp.i
 
-.PHONY : DataTypes/Student.i
+.PHONY : DataTypes/TimeSlot.i
 
 # target to preprocess a source file
-DataTypes/Student.cpp.i:
-	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.i
-.PHONY : DataTypes/Student.cpp.i
+DataTypes/TimeSlot.cpp.i:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.i
+.PHONY : DataTypes/TimeSlot.cpp.i
 
-DataTypes/Student.s: DataTypes/Student.cpp.s
+DataTypes/TimeSlot.s: DataTypes/TimeSlot.cpp.s
 
-.PHONY : DataTypes/Student.s
+.PHONY : DataTypes/TimeSlot.s
 
 # target to generate assembly for a file
-DataTypes/Student.cpp.s:
-	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.s
-.PHONY : DataTypes/Student.cpp.s
+DataTypes/TimeSlot.cpp.s:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.s
+.PHONY : DataTypes/TimeSlot.cpp.s
+
+DataTypes/gKlausur.o: DataTypes/gKlausur.cpp.o
+
+.PHONY : DataTypes/gKlausur.o
+
+# target to build an object file
+DataTypes/gKlausur.cpp.o:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/gKlausur.cpp.o
+.PHONY : DataTypes/gKlausur.cpp.o
+
+DataTypes/gKlausur.i: DataTypes/gKlausur.cpp.i
+
+.PHONY : DataTypes/gKlausur.i
+
+# target to preprocess a source file
+DataTypes/gKlausur.cpp.i:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/gKlausur.cpp.i
+.PHONY : DataTypes/gKlausur.cpp.i
+
+DataTypes/gKlausur.s: DataTypes/gKlausur.cpp.s
+
+.PHONY : DataTypes/gKlausur.s
+
+# target to generate assembly for a file
+DataTypes/gKlausur.cpp.s:
+	$(MAKE) -f CMakeFiles/PRO3_Klausurplanner.dir/build.make CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/gKlausur.cpp.s
+.PHONY : DataTypes/gKlausur.cpp.s
 
 DataTypes/pTage.o: DataTypes/pTage.cpp.o
 
@@ -375,6 +429,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PRO3_Klausurplanner"
+	@echo "... DataTypes/Anmeldung.o"
+	@echo "... DataTypes/Anmeldung.i"
+	@echo "... DataTypes/Anmeldung.s"
 	@echo "... DataTypes/Klausur.o"
 	@echo "... DataTypes/Klausur.i"
 	@echo "... DataTypes/Klausur.s"
@@ -384,9 +441,12 @@ help:
 	@echo "... DataTypes/Raum.o"
 	@echo "... DataTypes/Raum.i"
 	@echo "... DataTypes/Raum.s"
-	@echo "... DataTypes/Student.o"
-	@echo "... DataTypes/Student.i"
-	@echo "... DataTypes/Student.s"
+	@echo "... DataTypes/TimeSlot.o"
+	@echo "... DataTypes/TimeSlot.i"
+	@echo "... DataTypes/TimeSlot.s"
+	@echo "... DataTypes/gKlausur.o"
+	@echo "... DataTypes/gKlausur.i"
+	@echo "... DataTypes/gKlausur.s"
 	@echo "... DataTypes/pTage.o"
 	@echo "... DataTypes/pTage.i"
 	@echo "... DataTypes/pTage.s"

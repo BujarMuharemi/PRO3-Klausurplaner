@@ -12,6 +12,8 @@ class Raum {
     std::string Name;
     int Sitzplaetze;
 
+    bool isReady [20];
+
 public:
     Raum();
     Raum(std::string Name,int Sitzplaetze);

@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Anmeldung.cpp.o"
   "CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.o"
   "CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o"
   "CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o"
-  "CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.o"
+  "CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.o"
+  "CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/gKlausur.cpp.o"
   "CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o"
   "CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o"
   "CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o"

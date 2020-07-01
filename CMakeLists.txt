@@ -7,4 +7,4 @@ add_executable(PRO3_Klausurplanner
         InputData/Angebotene_Prüfungen_KL.csv
         InputData/Anmeldungen_WS2019_KL.csv
         InputData/Raumliste.csv
-        main.cpp Readers/RaumlisteReader.h Readers/RaumlisteReader.cpp DataTypes/Raum.cpp DataTypes/Raum.h DataTypes/Student.cpp DataTypes/Student.h DataTypes/pTage.cpp DataTypes/pTage.h DataTypes/Klausur.cpp DataTypes/Klausur.h DataTypes/Pruefer.cpp DataTypes/Pruefer.h Readers/PruefungenReader.cpp Readers/PruefungenReader.h Readers/AnmeldungenReader.cpp Readers/AnmeldungenReader.h)
+        main.cpp Readers/RaumlisteReader.h Readers/RaumlisteReader.cpp DataTypes/Raum.cpp DataTypes/Raum.h DataTypes/Anmeldung.cpp DataTypes/Anmeldung.h DataTypes/pTage.cpp DataTypes/pTage.h DataTypes/Klausur.cpp DataTypes/Klausur.h DataTypes/Pruefer.cpp DataTypes/Pruefer.h Readers/PruefungenReader.cpp Readers/PruefungenReader.h Readers/AnmeldungenReader.cpp Readers/AnmeldungenReader.h DataTypes/gKlausur.cpp DataTypes/gKlausur.h DataTypes/TimeSlot.cpp DataTypes/TimeSlot.h)

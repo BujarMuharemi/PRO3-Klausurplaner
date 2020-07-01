@@ -3,11 +3,11 @@
 
 
 #include <vector>
-#include "../DataTypes/Student.h"
+#include "../DataTypes/Anmeldung.h"
 
 class AnmeldungenReader {
 public:
-    static void read(std::vector<Student>& studenten);
+    static void read(std::vector<Anmeldung>& studenten);
 
 };
 

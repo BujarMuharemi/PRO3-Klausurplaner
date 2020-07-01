@@ -4,15 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dejan/PRO3-Klausurplanner/DataTypes/Klausur.cpp" "/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.o"
-  "/home/dejan/PRO3-Klausurplanner/DataTypes/Pruefer.cpp" "/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o"
-  "/home/dejan/PRO3-Klausurplanner/DataTypes/Raum.cpp" "/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o"
-  "/home/dejan/PRO3-Klausurplanner/DataTypes/Student.cpp" "/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.o"
-  "/home/dejan/PRO3-Klausurplanner/DataTypes/pTage.cpp" "/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o"
-  "/home/dejan/PRO3-Klausurplanner/Readers/AnmeldungenReader.cpp" "/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o"
-  "/home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.cpp" "/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o"
-  "/home/dejan/PRO3-Klausurplanner/Readers/RaumlisteReader.cpp" "/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/Readers/RaumlisteReader.cpp.o"
-  "/home/dejan/PRO3-Klausurplanner/main.cpp" "/home/dejan/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o"
+  "/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Anmeldung.cpp" "/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Anmeldung.cpp.o"
+  "/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.cpp" "/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Klausur.cpp.o"
+  "/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.cpp" "/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Pruefer.cpp.o"
+  "/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.cpp" "/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Raum.cpp.o"
+  "/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/TimeSlot.cpp" "/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/TimeSlot.cpp.o"
+  "/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.cpp" "/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/gKlausur.cpp.o"
+  "/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.cpp" "/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o"
+  "/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/AnmeldungenReader.cpp" "/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o"
+  "/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/PruefungenReader.cpp" "/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o"
+  "/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/RaumlisteReader.cpp" "/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/Readers/RaumlisteReader.cpp.o"
+  "/home/cc/Documents/PRO3/PRO3-Klausurplanner/main.cpp" "/home/cc/Documents/PRO3/PRO3-Klausurplanner/cmake-build-debug/CMakeFiles/PRO3_Klausurplanner.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

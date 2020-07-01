@@ -6,7 +6,7 @@
 
 using namespace std;
 
-void AnmeldungenReader::read(std::vector<Student>& studenten) {
+void AnmeldungenReader::read(std::vector<Anmeldung>& studenten) {
 
     int mtknr[10000];
     string studiengang[10000];
@@ -97,7 +97,7 @@ void AnmeldungenReader::read(std::vector<Student>& studenten) {
     }
 
     for(int i = 0; i < 9621; i++){
-        studenten.emplace_back(Student(mtknr[i], studiengang[i], pID_A[i]) );
+        studenten.emplace_back(Anmeldung(mtknr[i], studiengang[i], pID_A[i]) );
     }
 
 }

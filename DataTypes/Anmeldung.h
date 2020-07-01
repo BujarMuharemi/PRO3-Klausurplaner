@@ -7,15 +7,15 @@
 #define PRO3_KLAUSURPLANNER_STUDENT_H
 
 
-class Student {
+class Anmeldung {
     int mtkNR; //Matrikelnummer
     std::string stg; //Studiengang
-    int ID;
+    int ID; //prufungsID
 
     bool isReady [20];
 
 public:
-    Student(int mtkNr,  std::string stg, int ID);
+    Anmeldung(int mtkNr, std::string stg, int ID);
 
     int getMtkNr() const;
 

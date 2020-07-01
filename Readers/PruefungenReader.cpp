@@ -125,4 +125,10 @@ void PruefungenReader::read(vector<Klausur>& klausuren, vector<Pruefer>& pruefer
         }
     }
 
+    for(int i = 0; i < klausuren.size(); i++){
+        if(klausuren[i].getpDauer()==0){
+            klausuren.erase(klausuren.begin()+i);
+        }
+    }
+
 }
