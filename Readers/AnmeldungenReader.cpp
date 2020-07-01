@@ -6,7 +6,11 @@
 
 using namespace std;
 
-void AnmeldungenReader::read(int mtknr[], string studiengang[10000], int pID_A[]) {
+void AnmeldungenReader::read(std::vector<Student>& studenten) {
+
+    int mtknr[10000];
+    string studiengang[10000];
+    int pID_A[10000];
 
     ifstream csvread;
     int counter1 = 0;
@@ -92,5 +96,8 @@ void AnmeldungenReader::read(int mtknr[], string studiengang[10000], int pID_A[]
         pID_A[i] = atoi(pnr[i].c_str()) - atoi(pversion[i].c_str());
     }
 
+    for(int i = 0; i < 9621; i++){
+        studenten.emplace_back(Student(mtknr[i], studiengang[i], pID_A[i]) );
+    }
 
 }

@@ -17,9 +17,12 @@ CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/Student.cpp.o: ../DataTypes/Student
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o: ../DataTypes/pTage.cpp
 CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o: ../DataTypes/pTage.h
 
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o: ../DataTypes/Student.h
 CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o: ../Readers/AnmeldungenReader.cpp
 CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o: ../Readers/AnmeldungenReader.h
 
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o: ../DataTypes/Klausur.h
+CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o: ../DataTypes/Pruefer.h
 CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o: ../Readers/PruefungenReader.cpp
 CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o: ../Readers/PruefungenReader.h
 

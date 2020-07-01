@@ -4,10 +4,13 @@
 #include "Pruefer.h"
 
 
-Pruefer::Pruefer(int pruefer) : pruefer(pruefer) {}
+Pruefer::Pruefer(int pruefer){
+    this->pruefer=pruefer;
+}
+
 
 int Pruefer::getPruefer() const {
-    return pruefer;
+    return this->pruefer;
 }
 
 void Pruefer::resetReady(){

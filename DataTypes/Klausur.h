@@ -9,20 +9,23 @@
 
 
 class Klausur {
-    std::string stg; //Studiengang
-    int pVersion; //Pruefungs Version
-    int pNR;    //Pruefungs Nummer
-    int ID; // -> selbst generiert ?
+    int pVersion;
+    int pNR;
+    int ID;
     std::string pName;
-    Pruefer pruefer;
+    int pruefer1;
+    int pruefer2;
     int pDauer;
-    std::string pForm; //Pruefungsform DELETE
-    int pSemester; // Pruefungssemster DELETE
 
 public:
-    Klausur(const std::string &stg, int pVersion, int pNr, const std::string &pName, const Pruefer &pruefer, int pDauer,
-            const std::string &pForm, int pSemester);
+    Klausur(int pVersion, int pNr, int ID, std::string pName, int pruefer1, int pruefer2, int pDauer);
     int getID();
+    int getpVersion();
+    int getpNR();
+    std::string getpName();
+    int getpruefer1();
+    int getpruefer2();
+    int getpDauer();
 };
 
 

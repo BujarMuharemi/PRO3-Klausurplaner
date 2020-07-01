@@ -18,9 +18,12 @@ CMakeFiles/PRO3_Klausurplanner.dir/DataTypes/pTage.cpp.o
  /home/dejan/PRO3-Klausurplanner/DataTypes/pTage.cpp
  /home/dejan/PRO3-Klausurplanner/DataTypes/pTage.h
 CMakeFiles/PRO3_Klausurplanner.dir/Readers/AnmeldungenReader.cpp.o
+ /home/dejan/PRO3-Klausurplanner/DataTypes/Student.h
  /home/dejan/PRO3-Klausurplanner/Readers/AnmeldungenReader.cpp
  /home/dejan/PRO3-Klausurplanner/Readers/AnmeldungenReader.h
 CMakeFiles/PRO3_Klausurplanner.dir/Readers/PruefungenReader.cpp.o
+ /home/dejan/PRO3-Klausurplanner/DataTypes/Klausur.h
+ /home/dejan/PRO3-Klausurplanner/DataTypes/Pruefer.h
  /home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.cpp
  /home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.h
 CMakeFiles/PRO3_Klausurplanner.dir/Readers/RaumlisteReader.cpp.o

@@ -1,10 +1,12 @@
 #ifndef PRO3_KLAUSURPLANNER_PRUEFUNGENREADER_H
 #define PRO3_KLAUSURPLANNER_PRUEFUNGENREADER_H
 
+#include "../DataTypes/Klausur.h"
+#include <vector>
 
 class PruefungenReader {
 public:
-    static void read(int *pID, std::string *modul, int *pruefer1, int *pruefer2, int *dauer);
+    static void read(std::vector<Klausur>& klausuren, std::vector<Pruefer>& pruefer);
 };
 
 

@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/dejan/PRO3-Klausurplanner/DataTypes/Raum.h
+/home/dejan/PRO3-Klausurplanner/DataTypes/Klausur.h
+string
+-
+Pruefer.h
+/home/dejan/PRO3-Klausurplanner/DataTypes/Pruefer.h
+
+/home/dejan/PRO3-Klausurplanner/DataTypes/Pruefer.h
 string
 -
 
-/home/dejan/PRO3-Klausurplanner/Readers/RaumlisteReader.cpp
+/home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.cpp
 iostream
 -
 fstream
@@ -19,16 +25,12 @@ ostream
 -
 string
 -
-RaumlisteReader.h
-/home/dejan/PRO3-Klausurplanner/Readers/RaumlisteReader.h
-../DataTypes/Raum.h
-/home/dejan/PRO3-Klausurplanner/DataTypes/Raum.h
-vector
--
+PruefungenReader.h
+/home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.h
 
-/home/dejan/PRO3-Klausurplanner/Readers/RaumlisteReader.h
+/home/dejan/PRO3-Klausurplanner/Readers/PruefungenReader.h
+../DataTypes/Klausur.h
+/home/dejan/PRO3-Klausurplanner/DataTypes/Klausur.h
 vector
 -
-../DataTypes/Raum.h
-/home/dejan/PRO3-Klausurplanner/DataTypes/Raum.h
 

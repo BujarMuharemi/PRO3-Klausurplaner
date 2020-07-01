@@ -6,7 +6,16 @@
 
 using namespace std;
 
-void PruefungenReader::read(int pID[], string modul[], int pruefer1[], int pruefer2[], int dauer[]) {
+void PruefungenReader::read(vector<Klausur>& klausuren, vector<Pruefer>& pruefer) {
+
+    int pID[1000];
+    string modul[1000];
+    int pruefer1[1000];
+    int pruefer2[1000];
+    int dauer[1000];
+
+    int pver[1000];
+    int pnmr[1000];
 
     ifstream csvread;
     string temp[10000];
@@ -81,10 +90,29 @@ void PruefungenReader::read(int pID[], string modul[], int pruefer1[], int pruef
     for(int i=0; i<1000; i++){
         dauer[i] = atoi(dauerS[i].c_str());
     }
+
+    for(int i=0; i<1000; i++){
+        pver[i] = atoi(pversion[i].c_str());
+    }
+
+    for(int i=0; i<1000; i++){
+        pnmr[i] = atoi(pnr[i].c_str());
+    }
     //hier entsteht ID
     for(int i=0; i<1000; i++){
         pID[i] = atoi(pnr[i].c_str()) - atoi(pversion[i].c_str());
     }
 
+    for(int i = 0; i < 544; i++){
+        klausuren.emplace_back(Klausur(pver[i],pnmr[i] ,pID[i], modul[i], pruefer1[i], pruefer2[i], dauer[i]) );
+    }
+
+    for(int i = 0; i < 1000; i++){
+        pruefer.emplace_back(pruefer1[i]);
+    }
+
+    for(int i = 0; i < 1000; i++){
+        pruefer.emplace_back(pruefer2[i]);
+    }
 
 }

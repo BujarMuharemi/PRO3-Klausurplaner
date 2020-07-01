@@ -8,47 +8,44 @@
 #include "Readers/RaumlisteReader.h"
 #include "Readers/PruefungenReader.h"
 #include "Readers/AnmeldungenReader.h"
-
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
+
 int main(){
-//-------------------------------------------------------------------RaumlisteReader
+
+    cout << "<Raumliste------------------------------------------------------------------>" << endl;
     vector<Raum> raume;
     RaumlisteReader::read(raume);
 
-    cout << "<Raumliste------------------------------------------------------------------>" << endl;
-
     for(auto & i : raume){
-        cout << i.getName() << "--" << i.getSitzplaetze() << endl;
+        cout << "Raum: "  << i.getName() << "; Plätze: " << i.getSitzplaetze() << endl;
     }
 
-//--------------------------------------------------------------------PrüfungenReader
-    int pID[1000];
-    string modul[1000];
-    int pruefer1[1000];
-    int pruefer2[1000];
-    int dauer[1000];
 
     cout << "<Prüfungen------------------------------------------------------------------>" << endl;
+    vector<Klausur> klausuren;
+    vector<Pruefer> pruefer;
+    PruefungenReader::read(klausuren, pruefer);
 
-    PruefungenReader::read(pID, modul, pruefer1, pruefer2, dauer);
-
-    for(int i = 0; i < 544; i++){
-        //cout<< "pID: " << pID[i]  << "; modul: " << modul[i] << "; pruefer1: " << pruefer1[i] << "; pruefer2: " << pruefer2[i] << "; dauer: " << dauer[i] << endl;
+    for(auto & i : klausuren){
+        cout << "PNR: " << i.getpNR() << "; PVersion: "  << i.getpVersion()  << "; ID: " << i.getID()  << "; pName: "  << i.getpName() << "; Prüfer1: "  << i.getpruefer1() << "; Prüfer2: "  << i.getpruefer2()  << "; Dauer: " << i.getpDauer() <<endl;
     }
-//--------------------------------------------------------------------AnmeldungenReader
-    int mtknr[10000];
-    string studiengang[10000];
-    int pID_A[10000];
 
-    AnmeldungenReader::read(mtknr, studiengang, pID_A);
+    for(auto & i : pruefer){
+        cout << "Pruefer_ID: " << i.getPruefer() << endl;
+    }
+
 
     cout << "<Anmeldungen------------------------------------------------------------------>" << endl;
+    vector<Student> studenten;
+    AnmeldungenReader::read(studenten);
 
-    for(int i=0; i<9621; i++){
-        //cout << "pID-A: " << pID_A[i] << "; studiengang: " << studiengang[i] <<"; mtknr: " << mtknr[i] <<endl;
+
+    for(auto & i : studenten){
+        cout << "MtkNR: " << i.getMtkNr() << "; Studiengang: " << i.getStg() << "; ID: " << i.getID() << endl;
     }
 
     return 0;

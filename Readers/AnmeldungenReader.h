@@ -2,9 +2,12 @@
 #define PRO3_KLAUSURPLANNER_ANMELDUNGENREADER_H
 
 
+#include <vector>
+#include "../DataTypes/Student.h"
+
 class AnmeldungenReader {
 public:
-    static void read(int *mtknr, std::string *studiengang, int *pID_A);
+    static void read(std::vector<Student>& studenten);
 
 };
 

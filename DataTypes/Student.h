@@ -10,34 +10,18 @@
 class Student {
     int mtkNR; //Matrikelnummer
     std::string stg; //Studiengang
-
-    //TODO: add ID, remove rest
-    int pVersion; //Pruefungs Version
-    int pNR;    //Pruefungs Nummer
-
-    std::string pForm; //Pruefungsform
-    std::string pFormTXT; // Pruefungsform ausgeschrieben
-    int pSemester; // Pruefungssemster
+    int ID;
 
     bool isReady [20];
 
 public:
-    Student(int mtkNr,  std::string stg, int pVersion, int pNr,  std::string pForm,
-             std::string pFormTxt, int pSemester);
+    Student(int mtkNr,  std::string stg, int ID);
 
     int getMtkNr() const;
 
     const std::string &getStg() const;
 
-    int getPVersion() const;
-
-    int getPnr() const;
-
-    const std::string &getPForm() const;
-
-    const std::string &getPFormTxt() const;
-
-    int getPSemester() const;
+    int getID() const;
 
     void resetReady();
 
