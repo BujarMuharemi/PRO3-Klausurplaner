@@ -9,6 +9,7 @@
 #include "Readers/PruefungenReader.h"
 #include "Readers/AnmeldungenReader.h"
 #include <vector>
+#include <set>
 #include <algorithm>
 
 using namespace std;

@@ -3,10 +3,13 @@
 #include <ostream>
 #include <string>
 #include "PruefungenReader.h"
+#include <set>
 
 using namespace std;
 
 void PruefungenReader::read(vector<Klausur>& klausuren, vector<Pruefer>& pruefer) {
+
+    set<int> prueferSet;
 
     int pID[1000];
     string modul[1000];
@@ -108,11 +111,18 @@ void PruefungenReader::read(vector<Klausur>& klausuren, vector<Pruefer>& pruefer
     }
 
     for(int i = 0; i < 1000; i++){
-        pruefer.emplace_back(pruefer1[i]);
+        prueferSet.insert(pruefer1[i]);
     }
 
     for(int i = 0; i < 1000; i++){
-        pruefer.emplace_back(pruefer2[i]);
+        prueferSet.insert(pruefer2[i]);
+
+    }
+
+    for(auto f : prueferSet){
+        if(f != 0) {
+            pruefer.emplace_back(f);
+        }
     }
 
 }

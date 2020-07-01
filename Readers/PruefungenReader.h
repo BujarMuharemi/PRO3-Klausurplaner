@@ -4,6 +4,7 @@
 #include "../DataTypes/Klausur.h"
 #include <vector>
 
+
 class PruefungenReader {
 public:
     static void read(std::vector<Klausur>& klausuren, std::vector<Pruefer>& pruefer);
