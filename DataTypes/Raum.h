@@ -24,6 +24,8 @@ public:
     void setIsReady(int index, int dauer);
 
     void resetReady();
+
+
 };
 
 

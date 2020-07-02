@@ -21,6 +21,22 @@
 using namespace std;
 
 
+void resetEverything( vector<Raum> raume,vector<Pruefer> pruefer,   vector<Anmeldung> anmeldungen){
+    cout<<"\n_-------------------\n"<<endl;
+    for (auto &i : raume) {
+        i.resetReady();
+    }
+
+    for (auto &i : pruefer) {
+        i.resetReady();
+    }
+
+    for (auto &i : anmeldungen) {
+        i.resetReady();
+    }
+
+}
+
 
 int main() {
     cout << "<Raumliste------------------------------------------------------------------>" << endl;
@@ -79,12 +95,16 @@ int main() {
             //     << i.getPnr() << " wird in diesem Semester nicht angeboten! " << endl;
         }
     }
+
+
     //---------------------------------------------------------------------------------------------------------------
-
-
+    //---------------------------------------------------------------------------------------------------------------
+    //---------------------------------------------------------------------------------------------------------------
 
     pTage prufungsTage[10];
     TimeSlot timeSlotsTemp[20];
+
+
     int pTage_len = sizeof(prufungsTage) / sizeof(prufungsTage[0]);
     int tst_len = sizeof(timeSlotsTemp) / sizeof(timeSlotsTemp[0]);
 
@@ -98,21 +118,21 @@ int main() {
     //timeSlotsTemp[0].geplanteKlausurListe.emplace_back(gk);
 
     for (int a = 0; a < pTage_len; a++) {   //schleife für tage 1-10
+        cout << "_-_> Tag: "<<a<<endl;
 
-
-        for (int b = 0; b < tst_len; b++) { //schleife für timeslots 1-20
+        for (int b = 0; b < tst_len-7; b++) { //schleife für timeslots 1-20
         vector<gKlausur> tempPlan;
             //vector<gKlausur> plan = timeSlotsTemp[b].getGeplanteKlausurListe();
 
             int count = -1;
-
+            cout << "Timelost:"<< b <<"\nDavor: klausurenSize:_--------"<<klausuren.size() <<endl;
             for (auto &i : klausuren) {
                 count++;
                 //cout << "\t--" << klausuren.size() << endl;
-
+                /*
                 cout << "PNR: " << i.getpNR() << "; PVersion: " << i.getpVersion() << "; pName: " << i.getpName()
                      << "; Prüfer1: " << i.getpruefer1() << "; Prüfer2: " << i.getpruefer2() << "; Dauer: " << i.getpDauer()*30
-                     << endl;
+                     << endl;*/
 
 
                 int tz = 0;
@@ -125,7 +145,7 @@ int main() {
                 }
                 //Räume finden die genug plätze haben
                 //gKlausur a(i,raume.at(1),teilnehmerzahl,1);
-                cout << tz << endl;
+                //cout << tz << endl;
                 int old_tz = tz;
                 vector<Raum> tempRaume;
 
@@ -134,7 +154,7 @@ int main() {
 
                     if (tz == 0) {
                         klausuren.erase(klausuren.begin() + count);
-                        //break;
+                        break;
                     }
 
                     //for schleife zum testen ob der raum k frei ist
@@ -183,21 +203,46 @@ int main() {
 
                 }
                 for (auto &x : tempRaume) {
-                   cout << x.getName() << " "<< x.getSitzplaetze() << endl;
+                   //cout << x.getName() << " "<< x.getSitzplaetze() << endl;
                 }
                 if(isPlanned) {
                     gKlausur geplant(i, tempRaume, tz, b);
                     tempPlan.emplace_back(geplant);
-                    cout << "########" << geplant.getStartZeit() << "            " << geplant.getTeilnehmerZahl() << endl;
+                    cout << "# GeplannteStartZeit" << geplant.getStartZeit() << "      Teilnehmerzahl " << geplant.getTeilnehmerZahl() << endl;
                     isPlanned = false;
+                    klausuren.erase(klausuren.begin() + count);
+                    //cout << "%%%%%%%% eine klausur geloscht"<<endl;
+                    cout << "PNR: " << i.getpNR() << "; PVersion: " << i.getpVersion() << "; pName: " << i.getpName()
+                         << "; Prüfer1: " << i.getpruefer1() << "; Prüfer2: " << i.getpruefer2() << "; Dauer: " << i.getpDauer()*30
+                         << endl;
                 }
 
             }
+            cout << "Danach: klausurenSize:_--------"<<klausuren.size() <<endl;
             timeSlotsTemp[b].setGeplanteKlausurListe(tempPlan);
-            break;
+            //cout << "__________"<<timeSlotsTemp[b].getGeplanteKlausurListe().at(13).getTeilnehmerZahl()<<endl;
+            cout << "\n AnzahlgeplanteKlausuren:"<<tempPlan.size()<<endl;
+            if(tempPlan.size()>20){
+                cout << "µµµµµµµµµµµµµµ";
+            }
+
+
+
+            //break;
 
         }
-        break;
+        for (auto &i : raume) {
+            i.resetReady();
+        }
+
+        for (auto &i : pruefer) {
+            i.resetReady();
+        }
+
+        for (auto &i : anmeldungen) {
+            i.resetReady();
+        }
+        //break;
 
     }
 
