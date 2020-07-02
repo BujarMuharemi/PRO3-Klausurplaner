@@ -21,6 +21,7 @@
 using namespace std;
 
 
+
 int main() {
     cout << "<Raumliste------------------------------------------------------------------>" << endl;
     vector<Raum> raume;
@@ -84,10 +85,10 @@ int main() {
 
     pTage prufungsTage[10];
     TimeSlot timeSlotsTemp[20];
-
     int pTage_len = sizeof(prufungsTage) / sizeof(prufungsTage[0]);
     int tst_len = sizeof(timeSlotsTemp) / sizeof(timeSlotsTemp[0]);
 
+    bool isPlanned = false;
 
     //cout<<sizeof(timeSlotsTemp)/sizeof(timeSlotsTemp[0])<<endl;
 
@@ -100,8 +101,11 @@ int main() {
 
 
         for (int b = 0; b < tst_len; b++) { //schleife für timeslots 1-20
+        vector<gKlausur> tempPlan;
+            //vector<gKlausur> plan = timeSlotsTemp[b].getGeplanteKlausurListe();
 
             int count = -1;
+
             for (auto &i : klausuren) {
                 count++;
                 //cout << "\t--" << klausuren.size() << endl;
@@ -141,6 +145,7 @@ int main() {
 
 
                     if(k.getIsReady(b,i.getpDauer())){
+
                         Pruefer tempPruefer(1);
 
 
@@ -159,6 +164,7 @@ int main() {
                                     l.setIsReady(b,i.getpDauer());
                                     tempRaume.emplace_back(k);
                                     old_tz -= k.getSitzplaetze();
+                                    isPlanned = true;
                                     break;
                                 }
 
@@ -173,11 +179,21 @@ int main() {
                     if (old_tz <= 0) {
                         break;
                     }
+
+
                 }
                 for (auto &x : tempRaume) {
-                    cout << x.getName() << " "<< x.getSitzplaetze() << endl;
+                   cout << x.getName() << " "<< x.getSitzplaetze() << endl;
                 }
+                if(isPlanned) {
+                    gKlausur geplant(i, tempRaume, tz, b);
+                    tempPlan.emplace_back(geplant);
+                    cout << "########" << geplant.getStartZeit() << "            " << geplant.getTeilnehmerZahl() << endl;
+                    isPlanned = false;
+                }
+
             }
+            timeSlotsTemp[b].setGeplanteKlausurListe(tempPlan);
             break;
 
         }

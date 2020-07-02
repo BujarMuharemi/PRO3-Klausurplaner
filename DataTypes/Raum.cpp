@@ -22,9 +22,13 @@ int Raum::getSitzplaetze() {
 }
 
 void Raum::setIsReady(int index, int dauer) {
-    //std::cout<<"\t Dauer von setIsReady: "<<dauer<<std::endl;
+
     for(int i = 0; i < dauer+2; i++){
-        isReady[index+i] = false;
+        int help = index+i;
+        if(help>19){
+            help = 19;
+        }
+        isReady[help] = false;
     }
 
 }
