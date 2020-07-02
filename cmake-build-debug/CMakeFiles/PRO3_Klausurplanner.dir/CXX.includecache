@@ -6,67 +6,63 @@
 
 #IncludeRegexTransform: 
 
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Anmeldung.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Anmeldung.h
 string
 -
 
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Klausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
 string
 -
 Pruefer.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Pruefer.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.h
 
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Pruefer.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.h
 string
 -
 
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Raum.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
 string
 -
 
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/TimeSlot.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/TimeSlot.h
 gKlausur.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/gKlausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h
 vector
 -
 
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/gKlausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h
 Klausur.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Klausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
 Raum.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Raum.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
 vector
 -
 
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/pTage.cpp
-pTage.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/pTage.h
-
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/pTage.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.h
 TimeSlot.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/TimeSlot.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/TimeSlot.h
 vector
 -
 
-/home/dejan/Programmieren/PRO3-Klausurplanner/Readers/AnmeldungenReader.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/AnmeldungenReader.h
 vector
 -
 ../DataTypes/Anmeldung.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Anmeldung.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Anmeldung.h
 
-/home/dejan/Programmieren/PRO3-Klausurplanner/Readers/PruefungenReader.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/PruefungenReader.h
 ../DataTypes/Klausur.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Klausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
 vector
 -
 
-/home/dejan/Programmieren/PRO3-Klausurplanner/Readers/RaumlisteReader.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/RaumlisteReader.h
 vector
 -
 ../DataTypes/Raum.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Raum.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
 
-/home/dejan/Programmieren/PRO3-Klausurplanner/main.cpp
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/main.cpp
 iostream
 -
 fstream
@@ -74,25 +70,25 @@ fstream
 string
 -
 DataTypes/Raum.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Raum.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Raum.h
 DataTypes/Anmeldung.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Anmeldung.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Anmeldung.h
 DataTypes/Pruefer.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Pruefer.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.h
 DataTypes/Klausur.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/Klausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Klausur.h
 Readers/RaumlisteReader.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/Readers/RaumlisteReader.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/RaumlisteReader.h
 Readers/PruefungenReader.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/Readers/PruefungenReader.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/PruefungenReader.h
 Readers/AnmeldungenReader.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/Readers/AnmeldungenReader.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/Readers/AnmeldungenReader.h
 DataTypes/pTage.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/pTage.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/pTage.h
 DataTypes/gKlausur.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/gKlausur.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h
 DataTypes/TimeSlot.h
-/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/TimeSlot.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/TimeSlot.h
 vector
 -
 set

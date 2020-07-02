@@ -12,6 +12,9 @@
 class pTage {
     TimeSlot timeSlots[20];
 public:
+    const TimeSlot *getTimeSlots() const;
+
+
     pTage();
 };
 

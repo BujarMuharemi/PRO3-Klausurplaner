@@ -4,6 +4,15 @@
 
 #include "pTage.h"
 
+
 pTage::pTage() {
 
 }
+
+const TimeSlot *pTage::getTimeSlots() const {
+    return timeSlots;
+}
+
+
+
+
