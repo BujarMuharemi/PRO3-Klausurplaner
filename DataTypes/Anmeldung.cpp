@@ -40,5 +40,14 @@ int Anmeldung::getPVersion() const {
     return pVersion;
 }
 
+void Anmeldung::setIsReady(int index, int dauer) {
+
+    for(int i = 0; i < dauer+8; i++){
+        isReady[index+i] = false;
+    }
+
+
+}
+
 
 

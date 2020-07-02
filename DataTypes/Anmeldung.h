@@ -16,21 +16,16 @@ class Anmeldung {
 public:
     Anmeldung(int mtkNr, const std::string &stg, int pNr, int pVersion);
 
-private:
 
-    bool isReady [20];
-
-public:
-    //Anmeldung(int mtkNr, std::string stg, int ID);
-
+    bool isReady [20] = {true};
 
 
     int getMtkNr() const;
 
     const std::string &getStg() const;
 
-
     int getpVersion();
+
 
 
     int getPnr() const;
@@ -38,6 +33,8 @@ public:
     int getPVersion() const;
 
     void resetReady();
+
+    void setIsReady(int index, int dauer);
 
 
 };

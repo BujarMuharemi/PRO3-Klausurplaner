@@ -24,11 +24,11 @@ int main(){
     vector<Raum> raume;
     RaumlisteReader::read(raume);
 
-    /*
+
     for(auto & i : raume){
-        cout << "Raum: "  << i.getName() << "; Plätze: " << i.getSitzplaetze() << endl;
+        //cout << "Raum: "  << i.getName() << "; Plätze: " << i.getSitzplaetze() << endl;
     }
-     */
+
 
 
     cout << "<Prüfungen------------------------------------------------------------------>" << endl;
@@ -57,29 +57,46 @@ int main(){
 
     pTage prufungsTage[10];
 
+
+//schleife für tage 1-10
+//      schleife für timeslots 1-20
+
+    vector<gKlausur> geplanteKlausuren;
+
     for(auto & i : klausuren){
         cout << "PNR: " << i.getpNR() << "; PVersion: "  << i.getpVersion()   << "; pName: "  << i.getpName() << "; Prüfer1: "  << i.getpruefer1() << "; Prüfer2: "  << i.getpruefer2()  << "; Dauer: " << i.getpDauer() <<endl;
 
 
-        int t=0;
+        int tz=0;
         for(auto & j : studenten){
             //Liste der Teilnehmer bekommen
             if(i.getpNR()==j.getPnr() && i.getpVersion()==j.getPVersion()){
-                cout << "--> "<<"MtkNR: " << j.getMtkNr() << "; Studiengang: " << j.getStg() << "; ID: "  << endl;
-                t++;
+                //cout << "--> "<<"MtkNR: " << j.getMtkNr() << "; Studiengang: " << j.getStg() << endl;
+                tz++;
             }
         }
-        gKlausur a(i,raume.at(1),t,1);
-        cout << a.getTeilnehmerZahl()<<endl;
+//Räume finden die genug plätze haben
+        //gKlausur a(i,raume.at(1),teilnehmerzahl,1);
+        cout << tz <<endl;
+        int old_tz = tz;
+        vector<Raum> tempRaume;
 
-
+        for(auto & k : raume){
+            if(tz == 0){
+                break;
+            }
+            //for schleife zum testen ob der raum k frei ist
+                old_tz -= k.getSitzplaetze();
+                tempRaume.emplace_back(k);
+                //emplacter raum soll entprechend des timeslots und der dauer auf nicht ready gestellt werden
+            if(old_tz <= 0) {
+                break;
+            }
+        }
+        for(auto & x : tempRaume){
+            cout << x.getName() << x.getSitzplaetze() << endl;
+        }
     }
-
-
-
-
-
-
 
     return 0;
 }

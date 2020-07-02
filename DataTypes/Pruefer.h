@@ -9,7 +9,7 @@
 
 class Pruefer {
     int pruefer;
-    bool isReady [20]; // TODO: check default ?
+    bool isReady [20] = {true};
 
 public:
     Pruefer(int pruefer);
@@ -17,6 +17,8 @@ public:
     int getPruefer() const;
 
     void resetReady();
+
+    void setIsReady(int index, int dauer);
 };
 
 

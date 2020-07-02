@@ -19,4 +19,12 @@ void Pruefer::resetReady(){
     }
 }
 
+void Pruefer::setIsReady(int index, int dauer) {
+
+    for(int i = 0; i < dauer+1; i++){
+        isReady[index+i] = false;
+    }
+
+}
+
 

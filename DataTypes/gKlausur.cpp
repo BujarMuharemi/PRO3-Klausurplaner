@@ -15,15 +15,6 @@ void gKlausur::setKlausur(const Klausur &klausur) {
     gKlausur::klausur = klausur;
 }
 
-const Raum &gKlausur::getRaum() const {
-    return raum;
-}
-
-void gKlausur::setRaum(const Raum &raum) {
-    gKlausur::raum = raum;
-}
-
-
 int gKlausur::getTeilnehmerZahl() const {
     return teilnehmerZahl;
 }
@@ -40,9 +31,12 @@ void gKlausur::setStartZeit(int startZeit) {
     gKlausur::startZeit = startZeit;
 }
 
-gKlausur::gKlausur(const Klausur &klausur, const Raum &raum, int teilnehmerZahl, int startZeit) : klausur(klausur),
-                                                                                                  raum(raum),
-                                                                                                  teilnehmerZahl(
-                                                                                                          teilnehmerZahl),
-                                                                                                  startZeit(
-                                                                                                          startZeit) {}
+gKlausur::gKlausur(const Klausur &klausur, const std::vector<Raum> &raum, int teilnehmerZahl, int startZeit) : klausur(
+        klausur), raum(raum), teilnehmerZahl(teilnehmerZahl), startZeit(startZeit) {}
+
+const std::vector<Raum> &gKlausur::getRaum() const {
+    return raum;
+}
+
+
+

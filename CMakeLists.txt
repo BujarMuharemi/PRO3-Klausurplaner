@@ -3,8 +3,31 @@ project(PRO3_Klausurplanner)
 
 set(CMAKE_CXX_STANDARD 14)
 
+include_directories(DataTypes)
+include_directories(Readers)
+
 add_executable(PRO3_Klausurplanner
-        InputData/Angebotene_Prüfungen_KL.csv
-        InputData/Anmeldungen_WS2019_KL.csv
-        InputData/Raumliste.csv
-        main.cpp Readers/RaumlisteReader.h Readers/RaumlisteReader.cpp DataTypes/Raum.cpp DataTypes/Raum.h DataTypes/Anmeldung.cpp DataTypes/Anmeldung.h DataTypes/pTage.cpp DataTypes/pTage.h DataTypes/Klausur.cpp DataTypes/Klausur.h DataTypes/Pruefer.cpp DataTypes/Pruefer.h Readers/PruefungenReader.cpp Readers/PruefungenReader.h Readers/AnmeldungenReader.cpp Readers/AnmeldungenReader.h DataTypes/gKlausur.cpp DataTypes/gKlausur.h DataTypes/TimeSlot.cpp DataTypes/TimeSlot.h)
+    DataTypes/Anmeldung.cpp
+    DataTypes/Anmeldung.h
+    DataTypes/gKlausur.cpp
+    DataTypes/gKlausur.h
+    DataTypes/Klausur.cpp
+    DataTypes/Klausur.h
+    DataTypes/Pruefer.cpp
+    DataTypes/Pruefer.h
+    DataTypes/pTage.cpp
+    DataTypes/pTage.h
+    DataTypes/Raum.cpp
+    DataTypes/Raum.h
+    DataTypes/TimeSlot.cpp
+    DataTypes/TimeSlot.h
+    InputData/Angebotene_Prüfungen_KL.csv
+    InputData/Anmeldungen_WS2019_KL.csv
+    InputData/Raumliste.csv
+    Readers/AnmeldungenReader.cpp
+    Readers/AnmeldungenReader.h
+    Readers/PruefungenReader.cpp
+    Readers/PruefungenReader.h
+    Readers/RaumlisteReader.cpp
+    Readers/RaumlisteReader.h
+    main.cpp)

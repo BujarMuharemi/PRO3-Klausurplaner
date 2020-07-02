@@ -12,13 +12,15 @@ class Raum {
     std::string Name;
     int Sitzplaetze;
 
-    bool isReady [20];
+    bool isReady [20] = {true};
 
 public:
     Raum();
     Raum(std::string Name,int Sitzplaetze);
     std::string getName();
     int getSitzplaetze();
+    bool checkReady(int index, int dauer);
+    void setIsReady(int index, int dauer);
 };
 
 
