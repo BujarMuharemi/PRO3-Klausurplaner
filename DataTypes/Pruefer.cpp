@@ -29,18 +29,13 @@ void Pruefer::setIsReady(int index, int dauer) {
 
 bool Pruefer::getIsReady(int index, int dauer) {
 
-    bool temp = true;
-
     for(int i = 0; i < dauer; i++){
         if(isReady[index+i] == false){
-            temp = false;
+            //temp = false;
+            return false;
         }
     }
-    if(temp == false){
-        return false;
-    }else{
-        return true;
-    }
+    return true;
 
 }
 

@@ -22,6 +22,7 @@ public:
 
     bool getIsReady(int index, int dauer);
     void setIsReady(int index, int dauer);
+
     void resetReady();
 };
 

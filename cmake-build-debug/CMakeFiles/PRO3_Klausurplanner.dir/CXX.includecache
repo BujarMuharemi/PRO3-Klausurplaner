@@ -89,6 +89,8 @@ DataTypes/gKlausur.h
 /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/gKlausur.h
 DataTypes/TimeSlot.h
 /home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/TimeSlot.h
+DataTypes/Pruefer.h
+/home/cc/Documents/PRO3/PRO3-Klausurplanner/DataTypes/Pruefer.h
 vector
 -
 set

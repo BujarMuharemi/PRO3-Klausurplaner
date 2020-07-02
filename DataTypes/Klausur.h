@@ -29,6 +29,9 @@ public:
     int getpruefer2();
     int getpDauer();
 
+    int getDauerTimeSlot();
+
+    void setPDauer(int pDauer);
 
 };
 

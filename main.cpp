@@ -12,6 +12,7 @@
 #include "DataTypes/pTage.h"
 #include "DataTypes/gKlausur.h"
 #include "DataTypes/TimeSlot.h"
+#include "DataTypes/Pruefer.h"
 
 #include <vector>
 #include <set>
@@ -27,6 +28,7 @@ int main() {
 
 
     for (auto &i : raume) {
+        i.resetReady();
         //cout << "Raum: "  << i.getName() << "; Plätze: " << i.getSitzplaetze() << endl;
     }
 
@@ -38,10 +40,16 @@ int main() {
 
 
     for (auto &i : klausuren) {
+        if(i.getpDauer()==45){
+            i.setPDauer(2);
+        }else{
+            i.setPDauer(i.getpDauer()/30);
+        }
         //cout << "PNR: " << i.getpNR() << "; PVersion: "  << i.getpVersion()  << "; ID: " << i.getID()  << "; pName: "  << i.getpName() << "; Prüfer1: "  << i.getpruefer1() << "; Prüfer2: "  << i.getpruefer2()  << "; Dauer: " << i.getpDauer() <<endl;
     }
 
     for (auto &i : pruefer) {
+        i.resetReady();
         //cout << "Pruefer_ID: " << i.getPruefer() << endl;
     }
 
@@ -52,6 +60,7 @@ int main() {
 
 
     for (auto &i : anmeldungen) {
+        i.resetReady();
         //cout << "MtkNR: " << i.getMtkNr() << "; Studiengang: " << i.getStg() << "; ID: " << i.getID() << endl;
     }
 
@@ -82,11 +91,13 @@ int main() {
 
     //cout<<sizeof(timeSlotsTemp)/sizeof(timeSlotsTemp[0])<<endl;
 
+    //cout<<"__________________"<< pruefer[0].getIsReady(0,3)<<endl;
 
 
 
 
     for (int a = 0; a < pTage_len; a++) {   //schleife für tage 1-10
+
 
         for (int b = 0; b < tst_len; b++) { //schleife für timeslots 1-20
 
@@ -95,7 +106,7 @@ int main() {
                 count++;
                 cout << "\t--" << klausuren.size() << endl;
                 cout << "PNR: " << i.getpNR() << "; PVersion: " << i.getpVersion() << "; pName: " << i.getpName()
-                     << "; Prüfer1: " << i.getpruefer1() << "; Prüfer2: " << i.getpruefer2() << "; Dauer: " << i.getpDauer()
+                     << "; Prüfer1: " << i.getpruefer1() << "; Prüfer2: " << i.getpruefer2() << "; Dauer: " << i.getpDauer()*30
                      << endl;
 
 
@@ -115,27 +126,60 @@ int main() {
 
                 for (auto &k : raume) {
                     //Klausuren ohne Teilnehmer rausloschen
+
                     if (tz == 0) {
                         klausuren.erase(klausuren.begin() + count);
-                        break;
+                        //break;
                     }
+
                     //for schleife zum testen ob der raum k frei ist
-                    old_tz -= k.getSitzplaetze();
-                    tempRaume.emplace_back(k);
+                    //old_tz -= k.getSitzplaetze();
+                    //tempRaume.emplace_back(k);
+
+                    //cout<<"B:" << b<<"\t kalusur dauer::"<<i.getpDauer()<<endl;
+
+
+                    if(k.getIsReady(b,i.getpDauer())){
+                        Pruefer tempPruefer(1);
+
+
+                        for (auto &l : pruefer){
+
+                            if(l.getPruefer()==i.getpruefer1()){
+                                tempPruefer=l.getPruefer();
+
+                                cout <<"-------tempPruefer.getisready:::" << tempPruefer.getIsReady(b,i.getpDauer()) <<endl;
+
+                                if(tempPruefer.getIsReady(b,i.getpDauer())){
+                                   cout<<"Prufer: " <<tempPruefer.getPruefer()<<endl;
+
+                                    k.setIsReady(b,i.getpDauer());
+                                    l.setIsReady(b,i.getpDauer());
+                                    tempRaume.emplace_back(k);
+                                    old_tz -= k.getSitzplaetze();
+                                    //break;
+                                }
+
+                            }
+                        }
+                    }else{
+                        //cout<<"Raum ist nicht frei"<<endl;
+                    }
+
                     //emplacter raum soll entprechend des timeslots und der dauer auf nicht ready gestellt werden
                     if (old_tz <= 0) {
                         break;
                     }
                 }
                 for (auto &x : tempRaume) {
-                    //cout << x.getName() << x.getSitzplaetze() << endl;
+                    cout << x.getName() << " "<< x.getSitzplaetze() << endl;
                 }
             }
             break;
 
         }
         break;
-        //cout<<"------" <<endl;
+
     }
 
 

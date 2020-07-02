@@ -2,6 +2,7 @@
 // Created by cc on 15/6/20.
 //
 
+#include <iostream>
 #include "Raum.h"
 
 Raum::Raum(std::string Name, int Sitzplaetze) {
@@ -21,7 +22,7 @@ int Raum::getSitzplaetze() {
 }
 
 void Raum::setIsReady(int index, int dauer) {
-
+    //std::cout<<"\t Dauer von setIsReady: "<<dauer<<std::endl;
     for(int i = 0; i < dauer+2; i++){
         isReady[index+i] = false;
     }
@@ -30,18 +31,21 @@ void Raum::setIsReady(int index, int dauer) {
 
 bool Raum::getIsReady(int index, int dauer) {
 
-    bool temp = true;
+    //bool temp = true;
 
     for(int i = 0; i < dauer; i++){
         if(isReady[index+i] == false){
-            temp = false;
+            //temp = false;
+            return false;
         }
     }
+    return true;
+    /*
     if(temp == false){
         return false;
     }else{
         return true;
-    }
+    }*/
 
 }
 
