@@ -36,8 +36,7 @@ public:
     void setStartZeit(int startZeit);
 
 
-
-
+    std::string toCSV();
 
 
 

@@ -17,6 +17,8 @@ std::string Raum::getName() {
     return this->Name;
 }
 
+
+
 int Raum::getSitzplaetze() {
     return this->Sitzplaetze;
 }
@@ -59,3 +61,5 @@ void Raum::resetReady() {
         isReady[i]= true;
     }
 }
+
+

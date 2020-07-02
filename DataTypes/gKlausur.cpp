@@ -38,5 +38,28 @@ const std::vector<Raum> &gKlausur::getRaum() const {
     return raum;
 }
 
+std::string gKlausur::toCSV() {
+    std::string final="";
+
+    std::string raume="";
+
+    for(auto&i:raum){
+        raume=raume+i.getName()+" ";
+    }
+
+
+    final+= std::to_string(klausur.getpNR())+";"
+            +std::to_string(klausur.getpVersion()) +";"
+            +klausur.getpName()+";"
+            +std::to_string(klausur.getpDauer())+";"
+            +std::to_string((startZeit+16)/2)+";"
+            +std::to_string(teilnehmerZahl)+";"
+            +raume+";"
+            +std::to_string(klausur.getpruefer1())+" "
+            +std::to_string(klausur.getpruefer2())+";";
+
+    return final;
+}
+
 
 
