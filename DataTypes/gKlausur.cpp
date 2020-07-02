@@ -55,7 +55,7 @@ std::string gKlausur::toCSV() {
             +std::to_string((startZeit+16)/2)+";"
             +std::to_string(teilnehmerZahl)+";"
             +raume+";"
-            +std::to_string(klausur.getpruefer1())+" "
+            +std::to_string(klausur.getpruefer1())+"/"
             +std::to_string(klausur.getpruefer2())+";";
 
     return final;

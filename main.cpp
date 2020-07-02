@@ -15,42 +15,27 @@
 #include "DataTypes/Pruefer.h"
 
 #include <vector>
-#include <set>
-#include <algorithm>
 
 using namespace std;
 
-
-void resetEverything( vector<Raum> raume,vector<Pruefer> pruefer,   vector<Anmeldung> anmeldungen){
-    //cout<<"\n_-------------------\n"<<endl;
-    for (auto &i : raume) {
-        i.resetReady();
-    }
-
-    for (auto &i : pruefer) {
-        i.resetReady();
-    }
-
-    for (auto &i : anmeldungen) {
-        i.resetReady();
-    }
-
-}
-
+/*
+ * Gruppenmitglieder:
+ *  Bujar Muharemi 379702
+ *  Dejan Mijic 379699
+ *  Stjepan Majic 379688
+ * */
 
 int main() {
-    cout << "<Raumliste------------------------------------------------------------------>" << endl;
+    //cout << "<Raumliste------------------------------------------------------------------>" << endl;
     vector<Raum> raume;
     RaumlisteReader::read(raume);
-
 
     for (auto &i : raume) {
         i.resetReady();
         //cout << "Raum: "  << i.getName() << "; Plätze: " << i.getSitzplaetze() << endl;
     }
 
-
-    cout << "<Prüfungen------------------------------------------------------------------>" << endl;
+    //cout << "<Prüfungen------------------------------------------------------------------>" << endl;
     vector<Klausur> klausuren;
     vector<Pruefer> pruefer;
     PruefungenReader::read(klausuren, pruefer);
@@ -71,7 +56,7 @@ int main() {
     }
 
 
-    cout << "<Anmeldungen------------------------------------------------------------------>" << endl;
+    //cout << "<Anmeldungen------------------------------------------------------------------>" << endl;
     vector<Anmeldung> anmeldungen;
     AnmeldungenReader::read(anmeldungen);
 
@@ -91,8 +76,8 @@ int main() {
             }
         }
         if (fehlerAnmeldung == false) {
-            //cerr << "Fehler bei der Anmeldung vom Student: " << i.getMtkNr() << ". Die Prüfungsversion " << i.getPVersion() << " mit der Nummer "
-            //     << i.getPnr() << " wird in diesem Semester nicht angeboten! " << endl;
+            cerr << "Fehler bei der Anmeldung vom Student: " << i.getMtkNr() << ". Die Prüfungsversion " << i.getPVersion() << " mit der Nummer "
+                << i.getPnr() << " wird in diesem Semester nicht angeboten! " << endl;
         }
     }
 
@@ -110,17 +95,10 @@ int main() {
 
     bool isPlanned = false;
 
-    //cout<<sizeof(timeSlotsTemp)/sizeof(timeSlotsTemp[0])<<endl;
-
-    //cout<<"__________________"<< pruefer[0].getIsReady(0,3)<<endl;
-
-    //gKlausur gk();
-    //timeSlotsTemp[0].geplanteKlausurListe.emplace_back(gk);
-
 
     //MAIN_LOGIC_LOOP
     for (int a = 0; a < pTage_len; a++) {   //schleife für tage 1-10
-        // cout << "_-_> Tag: "<<a<<endl;
+        cout << "Berechne Tag: "<<a+1<<endl;
 
         for (int b = 0; b < tst_len-7; b++) { //schleife für timeslots 1-20
         vector<gKlausur> tempPlan;
@@ -220,14 +198,10 @@ int main() {
             timeSlotsTemp[b].setGeplanteKlausurListe(tempPlan);
             //cout << "__________"<<timeSlotsTemp[b].getGeplanteKlausurListe().at(13).getTeilnehmerZahl()<<endl;
             //cout << "\n AnzahlgeplanteKlausuren:"<<tempPlan.size()<<endl;
-            if(tempPlan.size()>20){
-                //cout << "µµµµµµµµµµµµµµ";
-            }
 
-            //break;
             //prufungsTage[a]=timeSlotsTemp[b];
         }
-
+        //flags zurucksetzten
         for (auto &i : raume) {
             i.resetReady();
         }
@@ -239,35 +213,28 @@ int main() {
         for (auto &i : anmeldungen) {
             i.resetReady();
         }
-
-        //break;
-
     }
 
 
-    // 2CSV Loops
-    for (int a = 0; a < pTage_len; a++) {   //schleife für tage 1-10
-        for (int b = 0; b < tst_len; b++) { //schleife für timeslots 1-20
-            //cout << timeSlotsTemp[]
-        }
-    }
-
-
-    cout << "coutn " << finalList.size()<< endl;
-    int day=0;
+    //Daten in CSV Datei speichern
+    int day=1;
     int lastStartTime=0;
 
+    std::ofstream myfile;
+    myfile.open ("../OutputData/KlausurPlan.csv", ios::out);
+    myfile << "Tag;pNR;pVersion;pName;Dauer;Uhrzeit;Teilnehmer;Räume;Prüfer"<<endl;
 
+    // 2CSV Loops
     for(auto &i :finalList){
-
         if(lastStartTime>i.getStartZeit()){
             day++;
         }
-
-        cout  <<day<<";"  << i.toCSV() <<endl;
+        myfile  <<day<<";"  << i.toCSV() <<endl;
         lastStartTime=i.getStartZeit();
-
     }
+
+    myfile.close();
+    cout << "Klausurplan fertiggestelt in OutputData"<<endl;
 
     return 0;
 }
