@@ -93,8 +93,8 @@ int main() {
 
     //cout<<"__________________"<< pruefer[0].getIsReady(0,3)<<endl;
 
-
-
+    //gKlausur gk();
+    //timeSlotsTemp[0].geplanteKlausurListe.emplace_back(gk);
 
     for (int a = 0; a < pTage_len; a++) {   //schleife für tage 1-10
 
@@ -104,7 +104,8 @@ int main() {
             int count = -1;
             for (auto &i : klausuren) {
                 count++;
-                cout << "\t--" << klausuren.size() << endl;
+                //cout << "\t--" << klausuren.size() << endl;
+
                 cout << "PNR: " << i.getpNR() << "; PVersion: " << i.getpVersion() << "; pName: " << i.getpName()
                      << "; Prüfer1: " << i.getpruefer1() << "; Prüfer2: " << i.getpruefer2() << "; Dauer: " << i.getpDauer()*30
                      << endl;
@@ -147,23 +148,25 @@ int main() {
 
                             if(l.getPruefer()==i.getpruefer1()){
                                 tempPruefer=l.getPruefer();
-
-                                cout <<"-------tempPruefer.getisready:::" << tempPruefer.getIsReady(b,i.getpDauer()) <<endl;
+                                tempPruefer.resetReady();
+                                l=tempPruefer;
+                                //cout <<"-------tempPruefer.getisready:::" << tempPruefer.getIsReady(b,i.getpDauer()) <<endl;
 
                                 if(tempPruefer.getIsReady(b,i.getpDauer())){
-                                   cout<<"Prufer: " <<tempPruefer.getPruefer()<<endl;
+                                   //cout<<"Prufer: " <<tempPruefer.getPruefer()<<endl;
 
                                     k.setIsReady(b,i.getpDauer());
                                     l.setIsReady(b,i.getpDauer());
                                     tempRaume.emplace_back(k);
                                     old_tz -= k.getSitzplaetze();
-                                    //break;
+                                    break;
                                 }
 
                             }
                         }
                     }else{
                         //cout<<"Raum ist nicht frei"<<endl;
+
                     }
 
                     //emplacter raum soll entprechend des timeslots und der dauer auf nicht ready gestellt werden
