@@ -47,13 +47,35 @@ int main(){
 
 
     cout << "<Anmeldungen------------------------------------------------------------------>" << endl;
-    vector<Anmeldung> studenten;
-    AnmeldungenReader::read(studenten);
+    vector<Anmeldung> anmeldungen;
+    AnmeldungenReader::read(anmeldungen);
 
 
-    for(auto & i : studenten){
+    for(auto & i : anmeldungen){
         //cout << "MtkNR: " << i.getMtkNr() << "; Studiengang: " << i.getStg() << "; ID: " << i.getID() << endl;
     }
+
+    //---------------------------------------------------------------------------------------------------------------
+
+    for(auto & i : anmeldungen) {
+        bool fehlerAnmeldung = false;
+        for (auto &j : klausuren) {
+            if (i.getPnr() == j.getpNR() && i.getPVersion() == j.getpVersion()) {
+                fehlerAnmeldung = true;
+            }
+        }
+        if (fehlerAnmeldung == false) {
+            cout << "Fehler bei der Anmeldung vom Student: " << i.getMtkNr() << ". Die Prüfungsversion " << i.getPVersion() << " mit der nummer "
+                 << i.getPnr() << " wird in diesem Semester nicht angeboten! " << endl;
+        }
+    }
+
+
+
+
+
+
+
 
     pTage prufungsTage[10];
 
@@ -64,11 +86,11 @@ int main(){
     vector<gKlausur> geplanteKlausuren;
 
     for(auto & i : klausuren){
-        cout << "PNR: " << i.getpNR() << "; PVersion: "  << i.getpVersion()   << "; pName: "  << i.getpName() << "; Prüfer1: "  << i.getpruefer1() << "; Prüfer2: "  << i.getpruefer2()  << "; Dauer: " << i.getpDauer() <<endl;
+        //cout << "PNR: " << i.getpNR() << "; PVersion: "  << i.getpVersion()   << "; pName: "  << i.getpName() << "; Prüfer1: "  << i.getpruefer1() << "; Prüfer2: "  << i.getpruefer2()  << "; Dauer: " << i.getpDauer() <<endl;
 
 
         int tz=0;
-        for(auto & j : studenten){
+        for(auto & j : anmeldungen){
             //Liste der Teilnehmer bekommen
             if(i.getpNR()==j.getPnr() && i.getpVersion()==j.getPVersion()){
                 //cout << "--> "<<"MtkNR: " << j.getMtkNr() << "; Studiengang: " << j.getStg() << endl;
@@ -77,7 +99,7 @@ int main(){
         }
 //Räume finden die genug plätze haben
         //gKlausur a(i,raume.at(1),teilnehmerzahl,1);
-        cout << tz <<endl;
+        //cout << tz <<endl;
         int old_tz = tz;
         vector<Raum> tempRaume;
 
@@ -94,7 +116,7 @@ int main(){
             }
         }
         for(auto & x : tempRaume){
-            cout << x.getName() << x.getSitzplaetze() << endl;
+            //cout << x.getName() << x.getSitzplaetze() << endl;
         }
     }
 
