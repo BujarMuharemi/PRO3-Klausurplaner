@@ -11,6 +11,7 @@
 #include "Readers/AnmeldungenReader.h"
 #include "DataTypes/pTage.h"
 #include "DataTypes/gKlausur.h"
+#include "DataTypes/TimeSlot.h"
 
 #include <vector>
 #include <set>
@@ -65,28 +66,29 @@ int main(){
             }
         }
         if (fehlerAnmeldung == false) {
-            cout << "Fehler bei der Anmeldung vom Student: " << i.getMtkNr() << ". Die Prüfungsversion " << i.getPVersion() << " mit der nummer "
-                 << i.getPnr() << " wird in diesem Semester nicht angeboten! " << endl;
+            //cerr << "Fehler bei der Anmeldung vom Student: " << i.getMtkNr() << ". Die Prüfungsversion " << i.getPVersion() << " mit der Nummer "
+            //     << i.getPnr() << " wird in diesem Semester nicht angeboten! " << endl;
         }
     }
-
-
-
-
-
+    //---------------------------------------------------------------------------------------------------------------
 
 
 
     pTage prufungsTage[10];
 
 
+
 //schleife für tage 1-10
 //      schleife für timeslots 1-20
+
+for(auto & a : prufungsTage){
+
+}
 
     vector<gKlausur> geplanteKlausuren;
 
     for(auto & i : klausuren){
-        //cout << "PNR: " << i.getpNR() << "; PVersion: "  << i.getpVersion()   << "; pName: "  << i.getpName() << "; Prüfer1: "  << i.getpruefer1() << "; Prüfer2: "  << i.getpruefer2()  << "; Dauer: " << i.getpDauer() <<endl;
+        cout << "PNR: " << i.getpNR() << "; PVersion: "  << i.getpVersion()   << "; pName: "  << i.getpName() << "; Prüfer1: "  << i.getpruefer1() << "; Prüfer2: "  << i.getpruefer2()  << "; Dauer: " << i.getpDauer() <<endl;
 
 
         int tz=0;
@@ -99,7 +101,7 @@ int main(){
         }
 //Räume finden die genug plätze haben
         //gKlausur a(i,raume.at(1),teilnehmerzahl,1);
-        //cout << tz <<endl;
+        cout << tz <<endl;
         int old_tz = tz;
         vector<Raum> tempRaume;
 
@@ -116,7 +118,7 @@ int main(){
             }
         }
         for(auto & x : tempRaume){
-            //cout << x.getName() << x.getSitzplaetze() << endl;
+            cout << x.getName() << x.getSitzplaetze() << endl;
         }
     }
 

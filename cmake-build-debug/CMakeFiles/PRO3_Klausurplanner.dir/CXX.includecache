@@ -38,6 +38,10 @@ Raum.h
 vector
 -
 
+/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/pTage.cpp
+pTage.h
+/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/pTage.h
+
 /home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/pTage.h
 TimeSlot.h
 /home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/TimeSlot.h
@@ -87,6 +91,8 @@ DataTypes/pTage.h
 /home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/pTage.h
 DataTypes/gKlausur.h
 /home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/gKlausur.h
+DataTypes/TimeSlot.h
+/home/dejan/Programmieren/PRO3-Klausurplanner/DataTypes/TimeSlot.h
 vector
 -
 set

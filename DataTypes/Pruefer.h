@@ -17,8 +17,9 @@ public:
     int getPruefer() const;
 
     void resetReady();
-
     void setIsReady(int index, int dauer);
+    bool getIsReady(int index, int dauer);
+
 };
 
 

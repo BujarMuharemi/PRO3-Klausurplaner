@@ -4,4 +4,6 @@
 
 #include "pTage.h"
 
-pTage::pTage() {}
+pTage::pTage() {
+
+}

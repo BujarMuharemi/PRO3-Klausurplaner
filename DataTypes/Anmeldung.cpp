@@ -49,5 +49,21 @@ void Anmeldung::setIsReady(int index, int dauer) {
 
 }
 
+bool Anmeldung::getIsReady(int index, int dauer) {
+
+    bool temp = true;
+
+    for(int i = 0; i < dauer; i++){
+        if(isReady[index+i] == false){
+            temp = false;
+        }
+    }
+    if(temp == false){
+        return false;
+    }else{
+        return true;
+    }
+}
+
 
 

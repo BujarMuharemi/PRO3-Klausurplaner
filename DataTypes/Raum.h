@@ -19,8 +19,10 @@ public:
     Raum(std::string Name,int Sitzplaetze);
     std::string getName();
     int getSitzplaetze();
-    bool checkReady(int index, int dauer);
+
+    bool getIsReady(int index, int dauer);
     void setIsReady(int index, int dauer);
+    void resetReady();
 };
 
 

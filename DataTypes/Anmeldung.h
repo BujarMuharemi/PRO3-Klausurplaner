@@ -8,9 +8,8 @@
 
 
 class Anmeldung {
-    int mtkNR; //Matrikelnummer
-    std::string stg; //Studiengang
-    //int ID; //prufungsID
+    int mtkNR;
+    std::string stg;
     int pNR;
     int pVersion;
 public:
@@ -24,17 +23,15 @@ public:
 
     const std::string &getStg() const;
 
-    int getpVersion();
-
-
 
     int getPnr() const;
 
     int getPVersion() const;
 
-    void resetReady();
 
+    void resetReady();
     void setIsReady(int index, int dauer);
+    bool getIsReady(int index, int dauer);
 
 
 };
